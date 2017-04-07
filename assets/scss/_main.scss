@@ -1,0 +1,217 @@
+/* MAIN */
+
+
+// Action
+
+.alert {
+  border: none;
+  padding: 16px 14px;
+  &-dismissable, &-dismissible {
+    padding-right: 52px;
+    .close {
+      right: -38px;
+      color: $cru-gray;
+      opacity: 1;
+    }
+  }
+}
+
+.progress {
+  box-shadow: none;
+  height: 5px;
+}
+.progress-bar {
+  box-shadow: none;
+}
+
+
+// Buttons
+
+.btn {
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 10px 28px;
+  border-width: 2px;
+  &:active, &.active {box-shadow: none;}
+  &:focus, &.focus, &:active:focus, &:active.focus, &.active:focus, &.active.focus {outline: none;}
+  &-primary {
+    @include cru-button-variant($btn-primary-color, $btn-primary-color, $btn-primary-bg, $cru-dark-blue-dark, transparent, transparent);
+    &.btn-light {
+      @include cru-button-variant($cru-dark-blue, $cru-dark-blue-dark, $color-white, $cru-gray-light, transparent, transparent);
+    }
+  }
+  &-secondary {
+    @include cru-button-variant($cru-dark-blue, $color-white, transparent, $cru-dark-blue-dark, $cru-dark-blue, $cru-dark-blue-dark);
+    &.btn-light {
+      @include cru-button-variant($color-white, $cru-dark-blue-dark, transparent, $cru-gray-light, $color-white, transparent);
+    }
+  }
+  &-success {
+    @include cru-button-variant($btn-success-color, $btn-success-color, $btn-success-bg, $cru-light-blue-dark, transparent, transparent);
+  }
+  &-info {
+    @include cru-button-variant($btn-info-color, $btn-info-color, $btn-info-bg, darken($btn-info-bg, 10%), transparent, transparent);
+  }
+  &-warning {
+    @include cru-button-variant($btn-warning-color, $btn-warning-color, $btn-warning-bg, $cru-gold-dark, transparent, transparent);
+  }
+  &-danger {
+    @include cru-button-variant($btn-danger-color, $btn-danger-color, $btn-danger-bg, $cru-orange-dark, transparent, transparent);
+  }
+  &.disabled, &[disabled], fieldset[disabled] & {
+    @include cru-button-variant($cru-gray-mid, $cru-gray-mid, $cru-gray-light, $cru-gray-light, transparent, transparent);
+    @include opacity(1);
+  }
+}
+
+
+// Form fields
+
+.radio {
+  label {  
+    font-family: $font-family-sans-serif;
+    padding: 15px 0px 10px 0px;
+    text-align: left;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $cru-gray;
+  }
+  span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    box-sizing: border-box;
+    border: $cru-light-blue 2px solid;
+    vertical-align: middle;
+    border-radius: 50%;
+    margin-right: 15px;
+  }
+  input {
+    visibility: hidden;
+    position: absolute;
+  }
+  input:checked + span {
+    background-color: $cru-light-blue;
+    border: $cru-light-blue 2px solid;
+  }
+}
+
+.checkbox {
+  label {  
+    font-family: $font-family-sans-serif;
+    padding: 15px 0px 10px 0px;
+    text-align: left;
+    letter-spacing: 1.4px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: $cru-gray;
+  }
+  span {
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    box-sizing: border-box;
+    border: $cru-light-blue 2px solid;
+    vertical-align: middle;
+    border-radius: 0;
+    margin-right: 15px;
+  }
+  input {
+    visibility: hidden;
+    position: absolute;
+  }
+  input:checked + span {
+    background-color: $cru-light-blue;
+    border: $cru-light-blue 2px solid;
+  }
+}
+
+.upload {
+  .btn {
+    position: relative;
+    overflow: hidden;
+    &-primary, &-success, &-info, &-warning, &-danger {
+      label {
+        color: $color-white;
+        font-size: $font-size-base;
+      }
+    }
+  }
+  label {margin-bottom: 0;}
+  input {vertical-align: top;}
+  input[type=file] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    max-width: 100%;
+    height: 100%;
+    filter: alpha(opacity=0);
+  }
+  #uploadFile {
+    font-size: $font-size-base;
+    line-height: 46px;
+    border: none;
+    padding: 0;
+    margin-left: 12px;
+    @include placeholder($color: $cru-gray);
+  }
+  .help-block {
+    font-size: 12px;
+    color: $cru-gray-mid;
+  }
+}
+
+label {
+  text-transform: uppercase;
+  font-size: 14px;
+  color: $cru-gray;
+}
+
+.form-control {
+  box-shadow: none;
+  border-width: 0 0 2px;
+  padding-left: 0;
+  resize: none;
+  &:focus {
+    box-shadow: none;
+  }
+}
+
+.has-feedback label ~ .form-control-feedback {
+  top: 22px;
+  font-size: 24px;
+}
+
+.has-success {
+  @include cru-form-control-validation($state-success-text, $state-success-border, $state-success-bg);
+}
+.has-warning {
+  @include cru-form-control-validation($state-warning-text, $state-warning-border, $state-warning-bg);
+}
+.has-error {
+  @include cru-form-control-validation($state-danger-text, $state-danger-border, $state-danger-bg);
+}
+
+.has-success, .has-warning, .has-error {
+  .form-control {
+    box-shadow: none;
+    &:focus {box-shadow: none;}
+  }
+}
+
+
+// Misc
+
+.close {text-shadow: none;}
