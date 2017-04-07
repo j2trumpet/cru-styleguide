@@ -2,74 +2,88 @@
 
 // Colors
 
-$cru-dark-blue:             #05699B;
-  $cru-dark-blue-light:     #BED7E6;
-  $cru-dark-blue-mid:       #3282AF;
-  $cru-dark-blue-dark:      #00557D;
+$cru-dark-blue:               #05699B;
+  $cru-dark-blue-light:       #BED7E6;
+  $cru-dark-blue-mid:         #3282AF;
+  $cru-dark-blue-dark:        #00557D;
 
-$cru-light-blue:            #32C3D7;
-  $cru-light-blue-light:    #D7F0F5;
-  $cru-light-blue-mid:      #87D2E1;
-  $cru-light-blue-dark:     #2DAFC3;
+$cru-light-blue:              #32C3D7;
+  $cru-light-blue-light:      #D7F0F5;
+  $cru-light-blue-mid:        #87D2E1;
+  $cru-light-blue-dark:       #2DAFC3;
 
-$cru-gold:                  #F5BE19;
-  $cru-gold-light:          #FAE6A5;
-  $cru-gold-mid:            #FACD46;
-  $cru-gold-dark:           #E6AF28;
+$cru-gold:                    #F5BE19;
+  $cru-gold-light:            #FAE6A5;
+  $cru-gold-mid:              #FACD46;
+  $cru-gold-dark:             #E6AF28;
 
-$cru-gray:                  #5A5A5A;
-  $cru-gray-light:          #E6E6E6;
-  $cru-gray-mid:            #BEBEBE;
-  $cru-gray-dark:           #323232;
+$cru-gray:                    #5A5A5A;
+  $cru-gray-light:            #E6E6E6;
+  $cru-gray-mid:              #BEBEBE;
+  $cru-gray-dark:             #323232;
 
-$cru-orange:                #EB8223;
-  $cru-orange-light:        #F5BE87;
-  $cru-orange-mid:          #F5A055;
-  $cru-orange-dark:         #D77328;
+$cru-orange:                  #EB8223;
+  $cru-orange-light:          #F5BE87;
+  $cru-orange-mid:            #F5A055;
+  $cru-orange-dark:           #D77328;
 
-$color-white:               #FFFFFF;
+$color-white:                 #FFFFFF;
 
 
 // Bootstrap overrides
 
+
   // Colors
-  $brand-primary:           $cru-dark-blue;
-  $brand-success:           $cru-light-blue;
-  $brand-info:              #5cb85c; // BS success default
-  $brand-warning:           $cru-gold;
-  $brand-danger:            $cru-orange;
-  $link-color:              $cru-light-blue;
-  $link-hover-color:        $cru-light-blue-dark;
+  $brand-primary:             $cru-dark-blue;
+  $brand-success:             $cru-light-blue;
+  $brand-info:                #5cb85c; // BS success default
+  $brand-warning:             $cru-gold;
+  $brand-danger:              $cru-orange;
 
-  $state-success-text:             $cru-gray;
-  $state-success-bg:               $cru-light-blue-light;
-  $state-success-border:           $cru-light-blue;
 
-  $state-info-text:                $cru-gray;
-  $state-info-bg:                  #dff0d8; // BS success default
-  $state-info-border:              $brand-info;
+  // Scaffolding
+  $link-color:                $cru-light-blue;
+  $link-hover-color:          $cru-light-blue-dark;
 
-  $state-warning-text:             $cru-gray;
-  $state-warning-bg:               $cru-gold-light;
-  $state-warning-border:           $cru-gold;
-
-  $state-danger-text:              $cru-gray;
-  $state-danger-bg:                $cru-orange-light;
-  $state-danger-border:            $cru-orange;
 
   // Typography
-  $font-family-sans-serif:  'Source Sans Pro', sans-serif;
-  $font-size-base:          16px; // weights: 200, 300, 400, 600, 700, 900
+  $font-family-sans-serif:    'Source Sans Pro', sans-serif;
+  $font-size-base:            16px; // weights: 200, 300, 400, 600, 700, 900
 
-  // Forms
-  $input-color:             $cru-gray;
-  $input-color-placeholder: $cru-gray;
-  $input-border:            $cru-gray-light;
-  $input-border-radius:     0;
-  $input-border-focus:      $cru-light-blue;
 
   // Buttons
-  $btn-border-radius-base:  3px;
+  $btn-border-radius-base:    3px;
 
-  // Components
-  $progress-bg:             $cru-gray-light;
+
+  // Forms
+  $input-color:               $cru-gray;
+  $input-border:              $cru-gray-light;
+  $input-border-radius:       0;
+  $input-border-focus:        $cru-light-blue;
+  $input-color-placeholder:   $cru-gray;
+
+
+  // Form states and alerts
+  $state-success-text:        $cru-gray;
+  $state-success-bg:          $cru-light-blue-light;
+  $state-success-border:      $cru-light-blue;
+
+  $state-info-text:           $cru-gray;
+  $state-info-bg:             #dff0d8; // BS success default
+  $state-info-border:         $brand-info;
+
+  $state-warning-text:        $cru-gray;
+  $state-warning-bg:          $cru-gold-light;
+  $state-warning-border:      $cru-gold;
+
+  $state-danger-text:         $cru-gray;
+  $state-danger-bg:           $cru-orange-light;
+  $state-danger-border:       $cru-orange;
+
+
+  // Progress bars
+  $progress-bg:               $cru-gray-light;
+
+
+  // Close
+  $close-color:               $cru-gray;

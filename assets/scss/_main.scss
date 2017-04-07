@@ -1,17 +1,19 @@
 /* MAIN */
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 
 // Action
 
 .alert {
   border: none;
-  padding: 16px 14px;
   &-dismissable, &-dismissible {
-    padding-right: 52px;
+    padding-right: ($alert-padding * 2) + ($font-size-base * 1.5);
     .close {
-      right: -38px;
-      color: $cru-gray;
-      opacity: 1;
+      right: -1 * ($alert-padding + ($font-size-base * 1.5));
     }
   }
 }
@@ -19,9 +21,9 @@
 .progress {
   box-shadow: none;
   height: 5px;
-}
-.progress-bar {
-  box-shadow: none;
+  &-bar {
+    box-shadow: none;
+  }
 }
 
 
@@ -214,4 +216,10 @@ label {
 
 // Misc
 
-.close {text-shadow: none;}
+.close {
+  text-shadow: none;
+  @include opacity(.5);
+  &:hover, &:focus {
+    @include opacity(1);
+  }
+}

@@ -5037,12 +5037,12 @@ button.list-group-item-danger {
   font-size: 24px;
   font-weight: bold;
   line-height: 1;
-  color: #000;
+  color: #5A5A5A;
   text-shadow: 0 1px 0 #fff;
   opacity: 0.2;
   filter: alpha(opacity=20); }
   .close:hover, .close:focus {
-    color: #000;
+    color: #5A5A5A;
     text-decoration: none;
     cursor: pointer;
     opacity: 0.5;
@@ -11408,29 +11408,32 @@ button.close {
   -ms-filter: "FlipV"; }
 
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale; }
+  padding-top: 71px;
+  padding-bottom: 20px; }
 
 .navbar-inverse .navbar-nav > li > a {
   -webkit-font-smoothing: subpixel-antialiased; }
 
+h2 {
+  margin-top: 50px; }
+
 /* MAIN */
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
 .alert {
-  border: none;
-  padding: 16px 14px; }
+  border: none; }
   .alert-dismissable, .alert-dismissible {
-    padding-right: 52px; }
+    padding-right: 54px; }
     .alert-dismissable .close, .alert-dismissible .close {
-      right: -38px;
-      color: #5A5A5A;
-      opacity: 1; }
+      right: -39px; }
 
 .progress {
   box-shadow: none;
   height: 5px; }
-
-.progress-bar {
-  box-shadow: none; }
+  .progress-bar {
+    box-shadow: none; }
 
 .btn {
   text-transform: uppercase;
@@ -11987,4 +11990,9 @@ label {
     box-shadow: none; }
 
 .close {
-  text-shadow: none; }
+  text-shadow: none;
+  opacity: 0.5;
+  filter: alpha(opacity=50); }
+  .close:hover, .close:focus {
+    opacity: 1;
+    filter: alpha(opacity=100); }
