@@ -63,6 +63,18 @@ $color-white:                   #FFFFFF;
   $input-color-placeholder:     $cru-scorpion;
 
 
+  //== Pagination
+  $pagination-border:           transparent;
+
+  //$pagination-hover-color:      
+  $pagination-hover-bg:         $color-white;
+  $pagination-hover-border:     transparent;
+
+  $pagination-active-color:     $link-hover-color;
+  $pagination-active-bg:        $color-white;
+  $pagination-active-border:    $link-hover-color;
+
+
   // Form states and alerts
   $state-success-text:          $cru-scorpion;
   $state-success-bg:            $cru-scooter-light;

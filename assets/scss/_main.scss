@@ -223,3 +223,26 @@ label {
     @include opacity(1);
   }
 }
+
+
+// Pagination
+
+.pagination {
+  > li {
+    display: inline-block;
+    margin: 0 2px;
+    &:first-child {
+      margin-left: 0;
+    }
+    &:last-child {
+      margin-right: 0;
+    }
+    > a,
+    > span {
+      padding: 3px 4px;
+      border-width: 0 0 2px 0;
+      margin-left: 0;
+      font-weight: 600;
+    }
+  }
+}
