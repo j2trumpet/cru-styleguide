@@ -37,31 +37,31 @@ body {
   &:active, &.active {box-shadow: none;}
   &:focus, &.focus, &:active:focus, &:active.focus, &.active:focus, &.active.focus {outline: none;}
   &-primary {
-    @include cru-button-variant($btn-primary-color, $btn-primary-color, $btn-primary-bg, $cru-dark-blue-dark, transparent, transparent);
+    @include cru-button-variant($btn-primary-color, $btn-primary-color, $btn-primary-bg, $cru-bahama-blue-dark, transparent, transparent);
     &.btn-light {
-      @include cru-button-variant($cru-dark-blue, $cru-dark-blue-dark, $color-white, $cru-gray-light, transparent, transparent);
+      @include cru-button-variant($cru-bahama-blue, $cru-bahama-blue-dark, $color-white, $cru-scorpion-light, transparent, transparent);
     }
   }
   &-secondary {
-    @include cru-button-variant($cru-dark-blue, $color-white, transparent, $cru-dark-blue-dark, $cru-dark-blue, $cru-dark-blue-dark);
+    @include cru-button-variant($cru-bahama-blue, $color-white, transparent, $cru-bahama-blue-dark, $cru-bahama-blue, $cru-bahama-blue-dark);
     &.btn-light {
-      @include cru-button-variant($color-white, $cru-dark-blue-dark, transparent, $cru-gray-light, $color-white, transparent);
+      @include cru-button-variant($color-white, $cru-bahama-blue-dark, transparent, $cru-scorpion-light, $color-white, transparent);
     }
   }
   &-success {
-    @include cru-button-variant($btn-success-color, $btn-success-color, $btn-success-bg, $cru-light-blue-dark, transparent, transparent);
+    @include cru-button-variant($btn-success-color, $btn-success-color, $btn-success-bg, $cru-scooter-dark, transparent, transparent);
   }
   &-info {
     @include cru-button-variant($btn-info-color, $btn-info-color, $btn-info-bg, darken($btn-info-bg, 10%), transparent, transparent);
   }
   &-warning {
-    @include cru-button-variant($btn-warning-color, $btn-warning-color, $btn-warning-bg, $cru-gold-dark, transparent, transparent);
+    @include cru-button-variant($btn-warning-color, $btn-warning-color, $btn-warning-bg, $cru-buttercup-dark, transparent, transparent);
   }
   &-danger {
-    @include cru-button-variant($btn-danger-color, $btn-danger-color, $btn-danger-bg, $cru-orange-dark, transparent, transparent);
+    @include cru-button-variant($btn-danger-color, $btn-danger-color, $btn-danger-bg, $cru-tango-dark, transparent, transparent);
   }
   &.disabled, &[disabled], fieldset[disabled] & {
-    @include cru-button-variant($cru-gray-mid, $cru-gray-mid, $cru-gray-light, $cru-gray-light, transparent, transparent);
+    @include cru-button-variant($cru-scorpion-alt, $cru-scorpion-alt, $cru-scorpion-light, $cru-scorpion-light, transparent, transparent);
     @include opacity(1);
   }
 }
@@ -80,14 +80,14 @@ body {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
-    color: $cru-gray;
+    color: $cru-scorpion;
   }
   span {
     display: inline-block;
     width: 14px;
     height: 14px;
     box-sizing: border-box;
-    border: $cru-light-blue 2px solid;
+    border: $cru-scooter 2px solid;
     vertical-align: middle;
     border-radius: 50%;
     margin-right: 15px;
@@ -97,8 +97,8 @@ body {
     position: absolute;
   }
   input:checked + span {
-    background-color: $cru-light-blue;
-    border: $cru-light-blue 2px solid;
+    background-color: $cru-scooter;
+    border: $cru-scooter 2px solid;
   }
 }
 
@@ -113,14 +113,14 @@ body {
     font-size: 14px;
     text-transform: uppercase;
     font-weight: bold;
-    color: $cru-gray;
+    color: $cru-scorpion;
   }
   span {
     display: inline-block;
     width: 14px;
     height: 14px;
     box-sizing: border-box;
-    border: $cru-light-blue 2px solid;
+    border: $cru-scooter 2px solid;
     vertical-align: middle;
     border-radius: 0;
     margin-right: 15px;
@@ -130,8 +130,8 @@ body {
     position: absolute;
   }
   input:checked + span {
-    background-color: $cru-light-blue;
-    border: $cru-light-blue 2px solid;
+    background-color: $cru-scooter;
+    border: $cru-scooter 2px solid;
   }
 }
 
@@ -167,18 +167,18 @@ body {
     border: none;
     padding: 0;
     margin-left: 12px;
-    @include placeholder($color: $cru-gray);
+    @include placeholder($color: $cru-scorpion);
   }
   .help-block {
     font-size: 12px;
-    color: $cru-gray-mid;
+    color: $cru-scorpion-alt;
   }
 }
 
 label {
   text-transform: uppercase;
   font-size: 14px;
-  color: $cru-gray;
+  color: $cru-scorpion;
 }
 
 .form-control {

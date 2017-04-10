@@ -1,3 +1,4 @@
+<?php $page_title = "Inputs"; ?>
 <?php include 'header.php'; ?>
 
     <h1>Inputs</h1>
@@ -39,7 +40,7 @@
     </div>
 
     <h2>Dropdown Open/Closed</h2>
-    <p>Requires custom HTML/CSS - possibly a plugin like <a href="http://mikemaccana.github.io/styleselect/" target="_blank">this</a>.</p>
+    <p>Requires custom HTML/CSS - possibly a plugin like <a href="http://mikemaccana.github.io/styleselect/" target="_blank">Style Select</a> or <a href="https://harvesthq.github.io/chosen/" target="_blank">Chosen</a>.</p>
 
     <h2>Search Closed</h2>
     <input type="text" class="form-control" placeholder="Search" />

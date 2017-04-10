@@ -1,3 +1,4 @@
+<?php $page_title = "Action"; ?>
 <?php include 'header.php'; ?>
 
     <h1>Action</h1>
