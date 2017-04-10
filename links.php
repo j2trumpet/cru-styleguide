@@ -1,26 +1,26 @@
-<?php $page_title = "Cards"; ?>
+<?php $page_title = "Links"; ?>
 <?php include 'header.php'; ?>
 
     <div class="panel-group">
 
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h2 class="panel-title">Article/Post</h2>
+          <h2 class="panel-title">Pagination</h2>
         </div>
         <div class="panel-body">
-          <p>Coming in Bootstrap 4 - <a href="https://v4-alpha.getbootstrap.com/components/card/" target="_blank">link</a></p>
+          Test
         </div>
       </div>
 
       <div class="panel panel-default">
         <div class="panel-heading">
-          <h2 class="panel-title">FAQ</h2>
+          <h2 class="panel-title">Text Link</h2>
         </div>
         <div class="panel-body">
-          <p>Coming in Bootstrap 4 - <a href="https://v4-alpha.getbootstrap.com/components/card/" target="_blank">link</a></p>
+          Test
         </div>
       </div>
 
-    </div>    
+    </div>
 
 <?php include 'footer.php'; ?>

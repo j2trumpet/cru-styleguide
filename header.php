@@ -19,6 +19,7 @@
           <li><a href="cards.php">Cards</a></li>
           <li><a href="footer2.php">Footer</a></li>
           <li><a href="inputs.php">Inputs</a></li>
+          <li><a href="links.php">Links</a></li>
         </ul>
         <ul class="nav navbar-nav navbar-right">
           <li><a href="https://company-91634.frontify.com/document/165866" target="_blank">Frontify</a></li>
@@ -27,3 +28,7 @@
     </div>
   </nav>
   <div class="container">
+
+    <div class="page-header">
+      <h1><?php echo $page_title; ?></h1>
+    </div>

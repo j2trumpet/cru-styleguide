@@ -7,6 +7,4 @@ body {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-h2 {
-  margin-top: 50px;
-}
+.panel-group .panel + .panel {margin-top: 50px;}

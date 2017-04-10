@@ -1,6 +1,17 @@
 <?php $page_title = "Footer"; ?>
 <?php include 'header.php'; ?>
 
-    <h1>Footer</h1>
+    <div class="panel-group">
+
+      <div class="panel panel-default">
+        <div class="panel-heading">
+          <h2 class="panel-title">Test</h2>
+        </div>
+        <div class="panel-body">
+          Test
+        </div>
+      </div>
+
+    </div>
 
 <?php include 'footer.php'; ?>

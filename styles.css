@@ -11414,7 +11414,7 @@ body {
 .navbar-inverse .navbar-nav > li > a {
   -webkit-font-smoothing: subpixel-antialiased; }
 
-h2 {
+.panel-group .panel + .panel {
   margin-top: 50px; }
 
 /* MAIN */
