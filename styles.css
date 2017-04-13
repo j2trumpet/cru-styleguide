@@ -5814,8 +5814,8 @@ button.close {
 /* MATERIAL DESIGN ICONS */
 @font-face {
   font-family: "Material Design Icons";
-  src: url("node_modules/mdi/fonts/materialdesignicons-webfont.eot?v=1.8.36");
-  src: url("node_modules/mdi/fonts/materialdesignicons-webfont.eot?#iefix&v=1.8.36") format("embedded-opentype"), url("node_modules/mdi/fonts/materialdesignicons-webfont.woff2?v=1.8.36") format("woff2"), url("node_modules/mdi/fonts/materialdesignicons-webfont.woff?v=1.8.36") format("woff"), url("node_modules/mdi/fonts/materialdesignicons-webfont.ttf?v=1.8.36") format("truetype"), url("node_modules/mdi/fonts/materialdesignicons-webfont.svg?v=1.8.36#materialdesigniconsregular") format("svg");
+  src: url("node_modules/mdi/fonts/materialdesignicons-webfont.eot?v=1.9.32");
+  src: url("node_modules/mdi/fonts/materialdesignicons-webfont.eot?#iefix&v=1.9.32") format("embedded-opentype"), url("node_modules/mdi/fonts/materialdesignicons-webfont.woff2?v=1.9.32") format("woff2"), url("node_modules/mdi/fonts/materialdesignicons-webfont.woff?v=1.9.32") format("woff"), url("node_modules/mdi/fonts/materialdesignicons-webfont.ttf?v=1.9.32") format("truetype"), url("node_modules/mdi/fonts/materialdesignicons-webfont.svg?v=1.9.32#materialdesigniconsregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -5827,8 +5827,7 @@ button.close {
   text-rendering: auto;
   line-height: inherit;
   -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  transform: translate(0, 0); }
+  -moz-osx-font-smoothing: grayscale; }
 
 .mdi-access-point:before {
   content: "\F002"; }
@@ -5911,9 +5910,6 @@ button.close {
 .mdi-account-star:before {
   content: "\F017"; }
 
-.mdi-account-star-variant:before {
-  content: "\F018"; }
-
 .mdi-account-switch:before {
   content: "\F019"; }
 
@@ -5974,11 +5970,14 @@ button.close {
 .mdi-alert-circle-outline:before {
   content: "\F5D6"; }
 
+.mdi-alert-decagram:before {
+  content: "\F6BC"; }
+
 .mdi-alert-octagon:before {
   content: "\F029"; }
 
 .mdi-alert-octagram:before {
-  content: "\F6BC"; }
+  content: "\F766"; }
 
 .mdi-alert-outline:before {
   content: "\F02A"; }
@@ -6098,7 +6097,13 @@ button.close {
   content: "\F045"; }
 
 .mdi-arrow-down-bold:before {
-  content: "\F046"; }
+  content: "\F72D"; }
+
+.mdi-arrow-down-bold-box:before {
+  content: "\F72E"; }
+
+.mdi-arrow-down-bold-box-outline:before {
+  content: "\F72F"; }
 
 .mdi-arrow-down-bold-circle:before {
   content: "\F047"; }
@@ -6118,6 +6123,9 @@ button.close {
 .mdi-arrow-down-drop-circle-outline:before {
   content: "\F04B"; }
 
+.mdi-arrow-down-thick:before {
+  content: "\F046"; }
+
 .mdi-arrow-expand:before {
   content: "\F616"; }
 
@@ -6128,7 +6136,13 @@ button.close {
   content: "\F04D"; }
 
 .mdi-arrow-left-bold:before {
-  content: "\F04E"; }
+  content: "\F730"; }
+
+.mdi-arrow-left-bold-box:before {
+  content: "\F731"; }
+
+.mdi-arrow-left-bold-box-outline:before {
+  content: "\F732"; }
 
 .mdi-arrow-left-bold-circle:before {
   content: "\F04F"; }
@@ -6148,11 +6162,20 @@ button.close {
 .mdi-arrow-left-drop-circle-outline:before {
   content: "\F053"; }
 
+.mdi-arrow-left-thick:before {
+  content: "\F04E"; }
+
 .mdi-arrow-right:before {
   content: "\F054"; }
 
 .mdi-arrow-right-bold:before {
-  content: "\F055"; }
+  content: "\F733"; }
+
+.mdi-arrow-right-bold-box:before {
+  content: "\F734"; }
+
+.mdi-arrow-right-bold-box-outline:before {
+  content: "\F735"; }
 
 .mdi-arrow-right-bold-circle:before {
   content: "\F056"; }
@@ -6172,6 +6195,9 @@ button.close {
 .mdi-arrow-right-drop-circle-outline:before {
   content: "\F05A"; }
 
+.mdi-arrow-right-thick:before {
+  content: "\F055"; }
+
 .mdi-arrow-top-left:before {
   content: "\F05B"; }
 
@@ -6182,7 +6208,13 @@ button.close {
   content: "\F05D"; }
 
 .mdi-arrow-up-bold:before {
-  content: "\F05E"; }
+  content: "\F736"; }
+
+.mdi-arrow-up-bold-box:before {
+  content: "\F737"; }
+
+.mdi-arrow-up-bold-box-outline:before {
+  content: "\F738"; }
 
 .mdi-arrow-up-bold-circle:before {
   content: "\F05F"; }
@@ -6202,6 +6234,9 @@ button.close {
 .mdi-arrow-up-drop-circle-outline:before {
   content: "\F063"; }
 
+.mdi-arrow-up-thick:before {
+  content: "\F05E"; }
+
 .mdi-assistant:before {
   content: "\F064"; }
 
@@ -6210,6 +6245,9 @@ button.close {
 
 .mdi-at:before {
   content: "\F065"; }
+
+.mdi-atom:before {
+  content: "\F767"; }
 
 .mdi-attachment:before {
   content: "\F066"; }
@@ -6754,6 +6792,9 @@ button.close {
 .mdi-camera-timer:before {
   content: "\F109"; }
 
+.mdi-cancel:before {
+  content: "\F739"; }
+
 .mdi-candle:before {
   content: "\F5E2"; }
 
@@ -6820,11 +6861,17 @@ button.close {
 .mdi-cast-connected:before {
   content: "\F119"; }
 
+.mdi-cast-off:before {
+  content: "\F789"; }
+
 .mdi-castle:before {
   content: "\F11A"; }
 
 .mdi-cat:before {
   content: "\F11B"; }
+
+.mdi-ceiling-light:before {
+  content: "\F768"; }
 
 .mdi-cellphone:before {
   content: "\F11C"; }
@@ -6865,6 +6912,9 @@ button.close {
 .mdi-chart-bar:before {
   content: "\F128"; }
 
+.mdi-chart-bar-stacked:before {
+  content: "\F769"; }
+
 .mdi-chart-bubble:before {
   content: "\F5E3"; }
 
@@ -6876,6 +6926,9 @@ button.close {
 
 .mdi-chart-line:before {
   content: "\F12A"; }
+
+.mdi-chart-line-stacked:before {
+  content: "\F76A"; }
 
 .mdi-chart-pie:before {
   content: "\F12B"; }
@@ -6982,6 +7035,12 @@ button.close {
 .mdi-church:before {
   content: "\F144"; }
 
+.mdi-circle:before {
+  content: "\F764"; }
+
+.mdi-circle-outline:before {
+  content: "\F765"; }
+
 .mdi-cisco-webex:before {
   content: "\F145"; }
 
@@ -7011,6 +7070,9 @@ button.close {
 
 .mdi-clipboard-outline:before {
   content: "\F14D"; }
+
+.mdi-clipboard-plus:before {
+  content: "\F750"; }
 
 .mdi-clipboard-text:before {
   content: "\F14E"; }
@@ -7081,11 +7143,11 @@ button.close {
 .mdi-cloud-download:before {
   content: "\F162"; }
 
+.mdi-cloud-off-outline:before {
+  content: "\F164"; }
+
 .mdi-cloud-outline:before {
   content: "\F163"; }
-
-.mdi-cloud-outline-off:before {
-  content: "\F164"; }
 
 .mdi-cloud-print:before {
   content: "\F165"; }
@@ -7399,6 +7461,12 @@ button.close {
 .mdi-debug-step-over:before {
   content: "\F1BD"; }
 
+.mdi-decagram:before {
+  content: "\F76B"; }
+
+.mdi-decagram-outline:before {
+  content: "\F76C"; }
+
 .mdi-decimal-decrease:before {
   content: "\F1BE"; }
 
@@ -7468,6 +7536,9 @@ button.close {
 .mdi-dice-6:before {
   content: "\F1CF"; }
 
+.mdi-dice-d10:before {
+  content: "\F76E"; }
+
 .mdi-dice-d20:before {
   content: "\F5EA"; }
 
@@ -7479,6 +7550,9 @@ button.close {
 
 .mdi-dice-d8:before {
   content: "\F5ED"; }
+
+.mdi-dice-multiple:before {
+  content: "\F76D"; }
 
 .mdi-dictionary:before {
   content: "\F61D"; }
@@ -7539,6 +7613,9 @@ button.close {
 
 .mdi-download:before {
   content: "\F1DA"; }
+
+.mdi-download-network:before {
+  content: "\F6F3"; }
 
 .mdi-drag:before {
   content: "\F1DB"; }
@@ -7711,11 +7788,11 @@ button.close {
 .mdi-eye-off:before {
   content: "\F209"; }
 
+.mdi-eye-off-outline:before {
+  content: "\F6D0"; }
+
 .mdi-eye-outline:before {
   content: "\F6CF"; }
-
-.mdi-eye-outline-off:before {
-  content: "\F6D0"; }
 
 .mdi-eyedropper:before {
   content: "\F20A"; }
@@ -7761,6 +7838,9 @@ button.close {
 
 .mdi-file:before {
   content: "\F214"; }
+
+.mdi-file-account:before {
+  content: "\F73A"; }
 
 .mdi-file-chart:before {
   content: "\F215"; }
@@ -7818,6 +7898,9 @@ button.close {
 
 .mdi-file-pdf-box:before {
   content: "\F226"; }
+
+.mdi-file-plus:before {
+  content: "\F751"; }
 
 .mdi-file-powerpoint:before {
   content: "\F227"; }
@@ -7987,6 +8070,9 @@ button.close {
 .mdi-folder-multiple-outline:before {
   content: "\F255"; }
 
+.mdi-folder-open:before {
+  content: "\F76F"; }
+
 .mdi-folder-outline:before {
   content: "\F256"; }
 
@@ -8029,6 +8115,9 @@ button.close {
 .mdi-football-helmet:before {
   content: "\F25F"; }
 
+.mdi-format-align-bottom:before {
+  content: "\F752"; }
+
 .mdi-format-align-center:before {
   content: "\F260"; }
 
@@ -8038,8 +8127,14 @@ button.close {
 .mdi-format-align-left:before {
   content: "\F262"; }
 
+.mdi-format-align-middle:before {
+  content: "\F753"; }
+
 .mdi-format-align-right:before {
   content: "\F263"; }
+
+.mdi-format-align-top:before {
+  content: "\F754"; }
 
 .mdi-format-annotation-plus:before {
   content: "\F646"; }
@@ -8134,6 +8229,9 @@ button.close {
 .mdi-format-list-bulleted-type:before {
   content: "\F27A"; }
 
+.mdi-format-list-checks:before {
+  content: "\F755"; }
+
 .mdi-format-list-numbers:before {
   content: "\F27B"; }
 
@@ -8149,8 +8247,11 @@ button.close {
 .mdi-format-pilcrow:before {
   content: "\F6D7"; }
 
-.mdi-format-quote:before {
+.mdi-format-quote-close:before {
   content: "\F27E"; }
+
+.mdi-format-quote-open:before {
+  content: "\F756"; }
 
 .mdi-format-rotate-90:before {
   content: "\F6A9"; }
@@ -8278,6 +8379,30 @@ button.close {
 .mdi-gender-transgender:before {
   content: "\F29F"; }
 
+.mdi-gesture-double-tap:before {
+  content: "\F73B"; }
+
+.mdi-gesture-swipe-down:before {
+  content: "\F73C"; }
+
+.mdi-gesture-swipe-left:before {
+  content: "\F73D"; }
+
+.mdi-gesture-swipe-right:before {
+  content: "\F73E"; }
+
+.mdi-gesture-swipe-up:before {
+  content: "\F73F"; }
+
+.mdi-gesture-tap:before {
+  content: "\F740"; }
+
+.mdi-gesture-two-double-tap:before {
+  content: "\F741"; }
+
+.mdi-gesture-two-tap:before {
+  content: "\F742"; }
+
 .mdi-ghost:before {
   content: "\F2A0"; }
 
@@ -8401,11 +8526,17 @@ button.close {
 .mdi-grid:before {
   content: "\F2C1"; }
 
+.mdi-grid-large:before {
+  content: "\F757"; }
+
 .mdi-grid-off:before {
   content: "\F2C2"; }
 
 .mdi-group:before {
   content: "\F2C3"; }
+
+.mdi-guitar-acoustic:before {
+  content: "\F770"; }
 
 .mdi-guitar-electric:before {
   content: "\F2C4"; }
@@ -8464,14 +8595,17 @@ button.close {
 .mdi-heart-broken:before {
   content: "\F2D4"; }
 
-.mdi-heart-half-outline:before {
-  content: "\F6DD"; }
-
-.mdi-heart-half-part:before {
+.mdi-heart-half:before {
   content: "\F6DE"; }
 
-.mdi-heart-half-part-outline:before {
+.mdi-heart-half-full:before {
+  content: "\F6DD"; }
+
+.mdi-heart-half-outline:before {
   content: "\F6DF"; }
+
+.mdi-heart-off:before {
+  content: "\F758"; }
 
 .mdi-heart-outline:before {
   content: "\F2D5"; }
@@ -8482,11 +8616,17 @@ button.close {
 .mdi-help:before {
   content: "\F2D6"; }
 
+.mdi-help-box:before {
+  content: "\F78A"; }
+
 .mdi-help-circle:before {
   content: "\F2D7"; }
 
 .mdi-help-circle-outline:before {
   content: "\F625"; }
+
+.mdi-help-network:before {
+  content: "\F6F4"; }
 
 .mdi-hexagon:before {
   content: "\F2D8"; }
@@ -8574,6 +8714,9 @@ button.close {
 
 .mdi-human-pregnant:before {
   content: "\F5CF"; }
+
+.mdi-humble-bundle:before {
+  content: "\F743"; }
 
 .mdi-image:before {
   content: "\F2E9"; }
@@ -8727,6 +8870,9 @@ button.close {
 
 .mdi-keyboard-variant:before {
   content: "\F313"; }
+
+.mdi-kickstarter:before {
+  content: "\F744"; }
 
 .mdi-kodi:before {
   content: "\F314"; }
@@ -8884,6 +9030,9 @@ button.close {
 .mdi-linux:before {
   content: "\F33D"; }
 
+.mdi-loading:before {
+  content: "\F771"; }
+
 .mdi-lock:before {
   content: "\F33E"; }
 
@@ -8901,6 +9050,9 @@ button.close {
 
 .mdi-lock-plus:before {
   content: "\F5FB"; }
+
+.mdi-lock-reset:before {
+  content: "\F772"; }
 
 .mdi-login:before {
   content: "\F342"; }
@@ -9172,6 +9324,9 @@ button.close {
 .mdi-multiplication-box:before {
   content: "\F383"; }
 
+.mdi-music:before {
+  content: "\F759"; }
+
 .mdi-music-box:before {
   content: "\F384"; }
 
@@ -9208,6 +9363,9 @@ button.close {
 .mdi-music-note-whole:before {
   content: "\F38D"; }
 
+.mdi-music-off:before {
+  content: "\F75A"; }
+
 .mdi-nature:before {
   content: "\F38E"; }
 
@@ -9229,17 +9387,11 @@ button.close {
 .mdi-nest-thermostat:before {
   content: "\F393"; }
 
+.mdi-netflix:before {
+  content: "\F745"; }
+
 .mdi-network:before {
   content: "\F6F2"; }
-
-.mdi-network-download:before {
-  content: "\F6F3"; }
-
-.mdi-network-question:before {
-  content: "\F6F4"; }
-
-.mdi-network-upload:before {
-  content: "\F6F5"; }
 
 .mdi-new-box:before {
   content: "\F394"; }
@@ -9255,6 +9407,9 @@ button.close {
 
 .mdi-nfc-variant:before {
   content: "\F398"; }
+
+.mdi-ninja:before {
+  content: "\F773"; }
 
 .mdi-nodejs:before {
   content: "\F399"; }
@@ -9409,6 +9564,9 @@ button.close {
 .mdi-octagram:before {
   content: "\F6F8"; }
 
+.mdi-octagram-outline:before {
+  content: "\F774"; }
+
 .mdi-odnoklassniki:before {
   content: "\F3C5"; }
 
@@ -9427,6 +9585,9 @@ button.close {
 .mdi-onedrive:before {
   content: "\F3CA"; }
 
+.mdi-onenote:before {
+  content: "\F746"; }
+
 .mdi-opacity:before {
   content: "\F5CC"; }
 
@@ -9441,6 +9602,9 @@ button.close {
 
 .mdi-opera:before {
   content: "\F3CE"; }
+
+.mdi-orbit:before {
+  content: "\F018"; }
 
 .mdi-ornament:before {
   content: "\F3CF"; }
@@ -9559,6 +9723,9 @@ button.close {
 .mdi-pencil-circle:before {
   content: "\F6FE"; }
 
+.mdi-pencil-circle-outline:before {
+  content: "\F775"; }
+
 .mdi-pencil-lock:before {
   content: "\F3EE"; }
 
@@ -9573,6 +9740,9 @@ button.close {
 
 .mdi-percent:before {
   content: "\F3F0"; }
+
+.mdi-periscope:before {
+  content: "\F747"; }
 
 .mdi-pharmacy:before {
   content: "\F3F1"; }
@@ -10153,6 +10323,9 @@ button.close {
 .mdi-selection:before {
   content: "\F489"; }
 
+.mdi-selection-off:before {
+  content: "\F776"; }
+
 .mdi-send:before {
   content: "\F48A"; }
 
@@ -10183,6 +10356,30 @@ button.close {
 .mdi-server-security:before {
   content: "\F492"; }
 
+.mdi-set-all:before {
+  content: "\F777"; }
+
+.mdi-set-center:before {
+  content: "\F778"; }
+
+.mdi-set-center-right:before {
+  content: "\F779"; }
+
+.mdi-set-left:before {
+  content: "\F77A"; }
+
+.mdi-set-left-center:before {
+  content: "\F77B"; }
+
+.mdi-set-left-right:before {
+  content: "\F77C"; }
+
+.mdi-set-none:before {
+  content: "\F77D"; }
+
+.mdi-set-right:before {
+  content: "\F77E"; }
+
 .mdi-settings:before {
   content: "\F493"; }
 
@@ -10212,6 +10409,9 @@ button.close {
 
 .mdi-shield:before {
   content: "\F498"; }
+
+.mdi-shield-half-full:before {
+  content: "\F77F"; }
 
 .mdi-shield-outline:before {
   content: "\F499"; }
@@ -10249,6 +10449,12 @@ button.close {
 .mdi-sign-caution:before {
   content: "\F4A1"; }
 
+.mdi-sign-direction:before {
+  content: "\F780"; }
+
+.mdi-sign-text:before {
+  content: "\F781"; }
+
 .mdi-signal:before {
   content: "\F4A2"; }
 
@@ -10266,6 +10472,9 @@ button.close {
 
 .mdi-signal-hspa-plus:before {
   content: "\F715"; }
+
+.mdi-signal-off:before {
+  content: "\F782"; }
 
 .mdi-signal-variant:before {
   content: "\F60A"; }
@@ -10441,11 +10650,20 @@ button.close {
 .mdi-spray:before {
   content: "\F665"; }
 
+.mdi-square:before {
+  content: "\F763"; }
+
 .mdi-square-inc:before {
   content: "\F4CA"; }
 
 .mdi-square-inc-cash:before {
   content: "\F4CB"; }
+
+.mdi-square-outline:before {
+  content: "\F762"; }
+
+.mdi-square-root:before {
+  content: "\F783"; }
 
 .mdi-stackexchange:before {
   content: "\F60B"; }
@@ -10498,6 +10716,9 @@ button.close {
 .mdi-sticker:before {
   content: "\F5D0"; }
 
+.mdi-sticker-emoji:before {
+  content: "\F784"; }
+
 .mdi-stocking:before {
   content: "\F4DA"; }
 
@@ -10531,6 +10752,9 @@ button.close {
 .mdi-subway-variant:before {
   content: "\F4DF"; }
 
+.mdi-summit:before {
+  content: "\F785"; }
+
 .mdi-sunglasses:before {
   content: "\F4E0"; }
 
@@ -10555,6 +10779,9 @@ button.close {
 .mdi-sword:before {
   content: "\F4E5"; }
 
+.mdi-sword-cross:before {
+  content: "\F786"; }
+
 .mdi-sync:before {
   content: "\F4E6"; }
 
@@ -10566,6 +10793,9 @@ button.close {
 
 .mdi-tab:before {
   content: "\F4E9"; }
+
+.mdi-tab-plus:before {
+  content: "\F75B"; }
 
 .mdi-tab-unselected:before {
   content: "\F4EA"; }
@@ -10611,6 +10841,9 @@ button.close {
 
 .mdi-tablet-ipad:before {
   content: "\F4F8"; }
+
+.mdi-taco:before {
+  content: "\F761"; }
 
 .mdi-tag:before {
   content: "\F4F9"; }
@@ -10756,6 +10989,9 @@ button.close {
 .mdi-timer-sand-empty:before {
   content: "\F6AC"; }
 
+.mdi-timer-sand-full:before {
+  content: "\F78B"; }
+
 .mdi-timetable:before {
   content: "\F520"; }
 
@@ -10864,6 +11100,9 @@ button.close {
 .mdi-truck-delivery:before {
   content: "\F53E"; }
 
+.mdi-truck-fast:before {
+  content: "\F787"; }
+
 .mdi-truck-trailer:before {
   content: "\F726"; }
 
@@ -10900,6 +11139,9 @@ button.close {
 .mdi-twitter-retweet:before {
   content: "\F547"; }
 
+.mdi-uber:before {
+  content: "\F748"; }
+
 .mdi-ubuntu:before {
   content: "\F548"; }
 
@@ -10918,11 +11160,17 @@ button.close {
 .mdi-undo-variant:before {
   content: "\F54D"; }
 
-.mdi-unfold-less:before {
+.mdi-unfold-less-horizontal:before {
   content: "\F54E"; }
 
-.mdi-unfold-more:before {
+.mdi-unfold-less-vertical:before {
+  content: "\F75F"; }
+
+.mdi-unfold-more-horizontal:before {
   content: "\F54F"; }
+
+.mdi-unfold-more-vertical:before {
+  content: "\F760"; }
 
 .mdi-ungroup:before {
   content: "\F550"; }
@@ -10938,6 +11186,9 @@ button.close {
 
 .mdi-upload:before {
   content: "\F552"; }
+
+.mdi-upload-network:before {
+  content: "\F6F5"; }
 
 .mdi-usb:before {
   content: "\F553"; }
@@ -10983,6 +11234,9 @@ button.close {
 
 .mdi-vector-polyline:before {
   content: "\F561"; }
+
+.mdi-vector-radius:before {
+  content: "\F749"; }
 
 .mdi-vector-rectangle:before {
   content: "\F5C6"; }
@@ -11098,8 +11352,17 @@ button.close {
 .mdi-volume-medium:before {
   content: "\F580"; }
 
+.mdi-volume-minus:before {
+  content: "\F75D"; }
+
+.mdi-volume-mute:before {
+  content: "\F75E"; }
+
 .mdi-volume-off:before {
   content: "\F581"; }
+
+.mdi-volume-plus:before {
+  content: "\F75C"; }
 
 .mdi-vpn:before {
   content: "\F582"; }
@@ -11151,6 +11414,9 @@ button.close {
 
 .mdi-watermark:before {
   content: "\F612"; }
+
+.mdi-waves:before {
+  content: "\F78C"; }
 
 .mdi-weather-cloudy:before {
   content: "\F590"; }
@@ -11305,6 +11571,24 @@ button.close {
 .mdi-xbox-controller:before {
   content: "\F5BA"; }
 
+.mdi-xbox-controller-battery-alert:before {
+  content: "\F74A"; }
+
+.mdi-xbox-controller-battery-empty:before {
+  content: "\F74B"; }
+
+.mdi-xbox-controller-battery-full:before {
+  content: "\F74C"; }
+
+.mdi-xbox-controller-battery-low:before {
+  content: "\F74D"; }
+
+.mdi-xbox-controller-battery-medium:before {
+  content: "\F74E"; }
+
+.mdi-xbox-controller-battery-unknown:before {
+  content: "\F74F"; }
+
 .mdi-xbox-controller-off:before {
   content: "\F5BB"; }
 
@@ -11322,6 +11606,9 @@ button.close {
 
 .mdi-xml:before {
   content: "\F5C0"; }
+
+.mdi-yammer:before {
+  content: "\F788"; }
 
 .mdi-yeast:before {
   content: "\F5C1"; }
@@ -11350,58 +11637,179 @@ button.close {
 .mdi-48px.mdi-set, .mdi-48px.mdi:before {
   font-size: 48px; }
 
-.mdi-dark {
+.mdi-dark:before {
   color: rgba(0, 0, 0, 0.54); }
-  .mdi-dark.mdi-inactive {
-    color: rgba(0, 0, 0, 0.26); }
 
-.mdi-light {
+.mdi-dark.mdi-inactive:before {
+  color: rgba(0, 0, 0, 0.26); }
+
+.mdi-light:before {
   color: white; }
-  .mdi-light.mdi-inactive {
-    color: rgba(255, 255, 255, 0.3); }
+
+.mdi-light.mdi-inactive:before {
+  color: rgba(255, 255, 255, 0.3); }
 
 .mdi-rotate-45 {
-  -webkit-transform: rotate(45deg);
-  -ms-transform: rotate(45deg);
-  transform: rotate(45deg); }
+  /*
+        // Not included in production
+        &.mdi-flip-h:before {
+            -webkit-transform: scaleX(-1) rotate(45deg);
+            transform: scaleX(-1) rotate(45deg);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+        &.mdi-flip-v:before {
+            -webkit-transform: scaleY(-1) rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: scaleY(-1) rotate(45deg);
+            filter: FlipV;
+            -ms-filter: "FlipV";
+        }
+        */ }
+  .mdi-rotate-45:before {
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg); }
 
 .mdi-rotate-90 {
-  -webkit-transform: rotate(90deg);
-  -ms-transform: rotate(90deg);
-  transform: rotate(90deg); }
+  /*
+        // Not included in production
+        &.mdi-flip-h:before {
+            -webkit-transform: scaleX(-1) rotate(90deg);
+            transform: scaleX(-1) rotate(90deg);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+        &.mdi-flip-v:before {
+            -webkit-transform: scaleY(-1) rotate(90deg);
+            -ms-transform: rotate(90deg);
+            transform: scaleY(-1) rotate(90deg);
+            filter: FlipV;
+            -ms-filter: "FlipV";
+        }
+        */ }
+  .mdi-rotate-90:before {
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg); }
 
 .mdi-rotate-135 {
-  -webkit-transform: rotate(135deg);
-  -ms-transform: rotate(135deg);
-  transform: rotate(135deg); }
+  /*
+        // Not included in production
+        &.mdi-flip-h:before {
+            -webkit-transform: scaleX(-1) rotate(135deg);
+            transform: scaleX(-1) rotate(135deg);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+        &.mdi-flip-v:before {
+            -webkit-transform: scaleY(-1) rotate(135deg);
+            -ms-transform: rotate(135deg);
+            transform: scaleY(-1) rotate(135deg);
+            filter: FlipV;
+            -ms-filter: "FlipV";
+        }
+        */ }
+  .mdi-rotate-135:before {
+    -webkit-transform: rotate(135deg);
+    -ms-transform: rotate(135deg);
+    transform: rotate(135deg); }
 
 .mdi-rotate-180 {
-  -webkit-transform: rotate(180deg);
-  -ms-transform: rotate(180deg);
-  transform: rotate(180deg); }
+  /*
+        // Not included in production
+        &.mdi-flip-h:before {
+            -webkit-transform: scaleX(-1) rotate(180deg);
+            transform: scaleX(-1) rotate(180deg);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+        &.mdi-flip-v:before {
+            -webkit-transform: scaleY(-1) rotate(180deg);
+            -ms-transform: rotate(180deg);
+            transform: scaleY(-1) rotate(180deg);
+            filter: FlipV;
+            -ms-filter: "FlipV";
+        }
+        */ }
+  .mdi-rotate-180:before {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg); }
 
 .mdi-rotate-225 {
-  -webkit-transform: rotate(225deg);
-  -ms-transform: rotate(225deg);
-  transform: rotate(225deg); }
+  /*
+        // Not included in production
+        &.mdi-flip-h:before {
+            -webkit-transform: scaleX(-1) rotate(225deg);
+            transform: scaleX(-1) rotate(225deg);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+        &.mdi-flip-v:before {
+            -webkit-transform: scaleY(-1) rotate(225deg);
+            -ms-transform: rotate(225deg);
+            transform: scaleY(-1) rotate(225deg);
+            filter: FlipV;
+            -ms-filter: "FlipV";
+        }
+        */ }
+  .mdi-rotate-225:before {
+    -webkit-transform: rotate(225deg);
+    -ms-transform: rotate(225deg);
+    transform: rotate(225deg); }
 
 .mdi-rotate-270 {
-  -webkit-transform: rotate(270deg);
-  -ms-transform: rotate(270deg);
-  transform: rotate(270deg); }
+  /*
+        // Not included in production
+        &.mdi-flip-h:before {
+            -webkit-transform: scaleX(-1) rotate(270deg);
+            transform: scaleX(-1) rotate(270deg);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+        &.mdi-flip-v:before {
+            -webkit-transform: scaleY(-1) rotate(270deg);
+            -ms-transform: rotate(270deg);
+            transform: scaleY(-1) rotate(270deg);
+            filter: FlipV;
+            -ms-filter: "FlipV";
+        }
+        */ }
+  .mdi-rotate-270:before {
+    -webkit-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg); }
 
 .mdi-rotate-315 {
-  -webkit-transform: rotate(315deg);
-  -ms-transform: rotate(315deg);
-  transform: rotate(315deg); }
+  /*
+        // Not included in production
+        &.mdi-flip-h:before {
+            -webkit-transform: scaleX(-1) rotate(315deg);
+            transform: scaleX(-1) rotate(315deg);
+            filter: FlipH;
+            -ms-filter: "FlipH";
+        }
+        &.mdi-flip-v:before {
+            -webkit-transform: scaleY(-1) rotate(315deg);
+            -ms-transform: rotate(315deg);
+            transform: scaleY(-1) rotate(315deg);
+            filter: FlipV;
+            -ms-filter: "FlipV";
+        }
+        */ }
+  .mdi-rotate-315:before {
+    -webkit-transform: rotate(315deg);
+    -ms-transform: rotate(315deg);
+    transform: rotate(315deg); }
 
-.mdi-flip-horizontal {
+.mdi-flip-h:before {
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   filter: FlipH;
   -ms-filter: "FlipH"; }
 
-.mdi-flip-vertical {
+.mdi-flip-v:before {
   -webkit-transform: scaleY(-1);
   transform: scaleY(-1);
   filter: FlipV;
@@ -11414,8 +11822,8 @@ body {
 .navbar-inverse .navbar-nav > li > a {
   -webkit-font-smoothing: subpixel-antialiased; }
 
-.panel-group .panel + .panel {
-  margin-top: 50px; }
+.navbar-right {
+  margin-right: 0; }
 
 /* MAIN */
 body {

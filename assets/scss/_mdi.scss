@@ -2,9 +2,9 @@
 
 $mdi-font-path: "node_modules/mdi/fonts";
 
-@import "../../node_modules/mdi/scss/variables";
-@import "../../node_modules/mdi/scss/functions";
-@import "../../node_modules/mdi/scss/path";
-@import "../../node_modules/mdi/scss/core";
-@import "../../node_modules/mdi/scss/icons";
-@import "../../node_modules/mdi/scss/extras";
+@import "../mdi/scss/variables";
+@import "../mdi/scss/functions";
+@import "../mdi/scss/path";
+@import "../mdi/scss/core";
+@import "../mdi/scss/icons";
+@import "../mdi/scss/extras";
