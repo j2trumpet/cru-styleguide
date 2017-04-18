@@ -14,7 +14,7 @@
         <button type="button" class="btn btn-warning">Warning</button>
         <button type="button" class="btn btn-danger">Danger</button>
         <!-- <button type="button" class="btn btn-link">Link</button> -->
-        <button type="button" class="btn btn-primary" disabled="disabled">Disabled Button</button>
+        <button type="button" class="btn btn-primary" disabled="disabled">Disabled</button>
       </div>
     </div>
 
