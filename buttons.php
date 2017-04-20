@@ -1,59 +1,51 @@
 <?php $page_title = "Buttons"; ?>
 <?php include 'header.php'; ?>
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2 class="panel-title">Dark Buttons</h2>
-      </div>
-      <div class="panel-body">
+    <div class="card">
+      <h2 class="card-header">Dark Buttons</h2>
+      <div class="card-block">
         <!-- <button type="button" class="btn btn-default">Default</button> -->
-        <button type="button" class="btn btn-primary">Primary</button>
-        <button type="button" class="btn btn-secondary">Secondary</button>
-        <button type="button" class="btn btn-success">Success</button>
-        <button type="button" class="btn btn-info">Info</button>
-        <button type="button" class="btn btn-warning">Warning</button>
-        <button type="button" class="btn btn-danger">Danger</button>
-        <!-- <button type="button" class="btn btn-link">Link</button> -->
-        <button type="button" class="btn btn-primary" disabled="disabled">Disabled</button>
+        <a href="#" role="button" class="btn btn-primary">Primary</a>
+        <a href="#" role="button" class="btn btn-secondary">Secondary</a>
+        <a href="#" role="button" class="btn btn-success">Success</a>
+        <a href="#" role="button" class="btn btn-info">Info</a>
+        <a href="#" role="button" class="btn btn-warning">Warning</a>
+        <a href="#" role="button" class="btn btn-danger">Danger</a>
+        <a href="#" role="button" class="btn btn-link">Link</a>
+        <a href="#" role="button" class="btn btn-primary disabled">Disabled</a>
       </div>
     </div>
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2 class="panel-title">Light Buttons</h2>
-      </div>
-      <div class="panel-body">
-        <div class="row" style="background-color: #05699B; padding-top: 5px; padding-bottom: 5px; margin-top: 5px;">
-          <div class="col-xs-12">
-            <button type="button" class="btn btn-primary btn-light">Light Primary</button>
-            <button type="button" class="btn btn-secondary btn-light">Light Secondary</button>
-          </div>
+    <div class="card">
+      <h2 class="card-header">Light Buttons</h2>
+      <div class="card-block">
+        <div style="background-color: #05699B; padding: 5px;">
+          <a href="#" role="button" class="btn btn-primary btn-light">Light Primary</a>
+          <a href="#" role="button" class="btn btn-secondary btn-light">Light Secondary</a>
         </div>
       </div>
     </div>
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2 class="panel-title">Radio Buttons</h2>
-      </div>
-      <div class="panel-body">
-        <div class="radio">
-          <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" />
+    <div class="card">
+      <h2 class="card-header">Radio Buttons</h2>
+      <div class="card-block">
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios1" value="option1" />
             <span></span>
             Phone
           </label>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
             <span></span>
             Text
           </label>
         </div>
-        <div class="radio">
-          <label>
-            <input type="radio" name="optionsRadios" id="optionsRadios3" value="option3" checked />
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios3" value="option3" checked />
             <span></span>
             Email
           </label>
@@ -61,28 +53,26 @@
       </div>
     </div>
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2 class="panel-title">Checkboxes</h2>
-      </div>
-      <div class="panel-body">
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="" />
+    <div class="card">
+      <h2 class="card-header">Checkboxes</h2>
+      <div class="card-block">
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" value="" />
             <span></span>
             Label
           </label>
         </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="" checked />
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" value="" checked />
             <span></span>
             Longer label
           </label>
         </div>
-        <div class="checkbox">
-          <label>
-            <input type="checkbox" value="" checked />
+        <div class="form-check">
+          <label class="form-check-label">
+            <input class="form-check-input" type="checkbox" value="" checked />
             <span></span>
             Label
           </label>
@@ -90,11 +80,9 @@
       </div>
     </div>
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2 class="panel-title">File Selector</h2>
-      </div>
-      <div class="panel-body">
+    <div class="card">
+      <h2 class="card-header">File Selector</h2>
+      <div class="card-block">
         <div class="upload">
           <button class="btn btn-primary">
             <label for="uploadBtn">Choose file</label>
@@ -111,11 +99,9 @@
       </script>
     </div>
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2 class="panel-title">Switch</h2>
-      </div>
-      <div class="panel-body">
+    <div class="card">
+      <h2 class="card-header">Switch</h2>
+      <div class="card-block">
         <p>Can't find it in Bootstrap.</p>
       </div>
     </div>   

@@ -41,32 +41,43 @@ $color-white:                   #FFFFFF;
   $brand-danger:                $cru-tango;
 
 
-  // Scaffolding
+  // Links
   $link-color:                  $cru-scooter;
   $link-hover-color:            $cru-scooter-dark;
 
 
-  // Typography
-  $font-family-sans-serif:      'Source Sans Pro', sans-serif;
-  $font-size-base:              16px; // weights: 200, 300, 400, 600, 700, 900
+  // Fonts
+  $font-family-sans-serif:      'Source Sans Pro', sans-serif; // weights: 200, 300, 400, 600, 700, 900
 
 
   // Buttons
-  $btn-border-radius-base:      3px;
+  $btn-padding-x:               28px;
+  $btn-padding-y:               10px;
+  $btn-font-weight:             600;
+  $btn-box-shadow:              none;
+  $btn-focus-box-shadow:        none;
+  $btn-active-box-shadow:       none;
+
+  $btn-secondary-color:         $brand-primary;
+  $btn-secondary-border:        $brand-primary;
+
+  $btn-border-radius:           3px;
 
 
   // Forms
   $input-color:                 $cru-scorpion;
-  $input-border:                $cru-scorpion-light;
+  $input-border-color:          $cru-scorpion-light;
+
   $input-border-radius:         0;
+
   $input-border-focus:          $cru-scooter;
+
   $input-color-placeholder:     $cru-scorpion;
 
 
   // Pagination
-  $pagination-border:           transparent;
-
-  //$pagination-hover-color:      
+  $pagination-border-color:     transparent;
+     
   $pagination-hover-bg:         $color-white;
   $pagination-hover-border:     transparent;
 
@@ -93,7 +104,14 @@ $color-white:                   #FFFFFF;
   $state-danger-border:         $cru-tango;
 
 
+  // Alerts
+  $alert-padding-x:             1rem;
+  $alert-padding-y:             1rem;
+  $alert-border-width:          0;
+
+
   // Progress bars
+  $progress-height:             5px;
   $progress-bg:                 $cru-scorpion-light;
 
 

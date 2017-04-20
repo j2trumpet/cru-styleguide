@@ -41,15 +41,15 @@
 
     <div class="panel panel-default">
       <div class="panel-heading">
-        <h2 class="panel-title">Tags</h2>
+        <h2 class="panel-title">Tags (BS 3/4 hybrid)</h2>
       </div>
       <div class="panel-body">
-        <span class="badge badge-pill badge-default">Default</span>
-        <span class="badge badge-pill badge-primary">Primary</span>
-        <span class="badge badge-pill badge-success">Success</span>
-        <span class="badge badge-pill badge-info">Info</span>
-        <span class="badge badge-pill badge-warning">Warning</span>
-        <span class="badge badge-pill badge-danger">Danger</span>
+        <a href="#" class="badge badge-pill badge-default">Default</a>
+        <a href="#" class="badge badge-pill badge-primary">Primary</a>
+        <a href="#" class="badge badge-pill badge-success">Success</a>
+        <a href="#" class="badge badge-pill badge-info">Info</a>
+        <a href="#" class="badge badge-pill badge-warning">Warning</a>
+        <a href="#" class="badge badge-pill badge-danger">Danger</a>
       </div>
     </div>
 

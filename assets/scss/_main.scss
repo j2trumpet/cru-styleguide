@@ -1,29 +1,20 @@
 /* MAIN */
 
+html {
+  font-size: 16px;
+}
+
 body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-
-// Action
-
-.alert {
-  border: none;
-  &-dismissable, &-dismissible {
-    padding-right: ($alert-padding * 2) + ($font-size-base * 1.5);
-    .close {
-      right: -1 * ($alert-padding + ($font-size-base * 1.5));
-    }
-  }
-}
-
-.progress {
-  box-shadow: none;
-  height: 5px;
-  &-bar {
-    box-shadow: none;
-  }
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: $font-family-sans-serif;
 }
 
 
@@ -31,11 +22,7 @@ body {
 
 .btn {
   text-transform: uppercase;
-  font-weight: 600;
-  padding: 10px 28px;
   border-width: 2px;
-  &:active, &.active {box-shadow: none;}
-  &:focus, &.focus, &:active:focus, &:active.focus, &.active:focus, &.active.focus {outline: none;}
   &-primary {
     @include cru-button-variant($btn-primary-color, $btn-primary-color, $btn-primary-bg, $cru-bahama-blue-dark, transparent, transparent);
     &.btn-light {
@@ -60,28 +47,23 @@ body {
   &-danger {
     @include cru-button-variant($btn-danger-color, $btn-danger-color, $btn-danger-bg, $cru-tango-dark, transparent, transparent);
   }
-  &.disabled, &[disabled], fieldset[disabled] & {
+  &-link {
+    @include cru-button-variant($cru-bahama-blue, $cru-bahama-blue, transparent, transparent, transparent, transparent);
+  }
+  &.disabled, &:disabled {
     @include cru-button-variant($cru-scorpion-alt, $cru-scorpion-alt, $cru-scorpion-light, $cru-scorpion-light, transparent, transparent);
-    @include opacity(1);
+    opacity: 1;
   }
 }
 
 
 // Form fields
 
-.radio {
-  label {  
-    font-family: $font-family-sans-serif;
-    padding: 15px 0px 10px 0px;
-    text-align: left;
-    letter-spacing: 1.4px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: $cru-scorpion;
-  }
+.form-check-label {  
+  padding-left: 0;
+  letter-spacing: 1.4px;
+  text-transform: uppercase;
+  font-weight: bold;
   span {
     display: inline-block;
     width: 14px;
@@ -92,44 +74,12 @@ body {
     border-radius: 50%;
     margin-right: 15px;
   }
-  input {
-    visibility: hidden;
-    position: absolute;
-  }
-  input:checked + span {
-    background-color: $cru-scooter;
-    border: $cru-scooter 2px solid;
-  }
 }
 
-.checkbox {
-  label {  
-    font-family: $font-family-sans-serif;
-    padding: 15px 0px 10px 0px;
-    text-align: left;
-    letter-spacing: 1.4px;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 14px;
-    text-transform: uppercase;
-    font-weight: bold;
-    color: $cru-scorpion;
-  }
-  span {
-    display: inline-block;
-    width: 14px;
-    height: 14px;
-    box-sizing: border-box;
-    border: $cru-scooter 2px solid;
-    vertical-align: middle;
-    border-radius: 0;
-    margin-right: 15px;
-  }
-  input {
-    visibility: hidden;
-    position: absolute;
-  }
-  input:checked + span {
+.form-check-input {
+  visibility: hidden;
+  position: absolute;
+  &:checked + span {
     background-color: $cru-scooter;
     border: $cru-scooter 2px solid;
   }
@@ -167,7 +117,7 @@ body {
     border: none;
     padding: 0;
     margin-left: 12px;
-    @include placeholder($color: $cru-scorpion);
+    // @include placeholder($color: $cru-scorpion);
   }
   .help-block {
     font-size: 12px;
@@ -218,9 +168,9 @@ label {
 
 .close {
   text-shadow: none;
-  @include opacity(.5);
+  opacity: .5;
   &:hover, &:focus {
-    @include opacity(1);
+    opacity: 1;
   }
 }
 

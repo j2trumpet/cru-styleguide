@@ -3,8 +3,10 @@ body {
   padding-bottom: 20px;
 }
 
-.navbar-inverse .navbar-nav > li > a {
+.navbar-inverse .navbar-nav > a {
   -webkit-font-smoothing: subpixel-antialiased;
 }
 
-.navbar-right {margin-right: 0;}
+* + .card {margin-top: 2rem;}
+
+.progress + .progress {margin-top: 1rem;}

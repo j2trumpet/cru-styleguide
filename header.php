@@ -10,25 +10,19 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-inverse navbar-fixed-top">
-    <div class="container-fluid">
-      <div class="collapse navbar-collapse">
-        <ul class="nav navbar-nav">
-          <li><a href="action.php">Action</a></li>
-          <li><a href="buttons.php">Buttons</a></li>
-          <li><a href="cards.php">Cards</a></li>
-          <li><a href="footer2.php">Footer</a></li>
-          <li><a href="inputs.php">Inputs</a></li>
-          <li><a href="links.php">Links</a></li>
-        </ul>
-        <ul class="nav navbar-nav navbar-right">
-          <li><a href="https://company-91634.frontify.com/document/165866" target="_blank">Frontify</a></li>
-        </ul>
+  <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse fixed-top">
+    <div class="collapse navbar-collapse">
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="action.php">Action</a>
+        <a class="nav-item nav-link" href="buttons.php">Buttons</a>
+        <a class="nav-item nav-link" href="cards.php">Cards</a>
+        <a class="nav-item nav-link" href="footer2.php">Footer</a>
+        <a class="nav-item nav-link" href="inputs.php">Inputs</a>
+        <a class="nav-item nav-link" href="links.php">Links</a>
+        <a class="nav-item nav-link navbar-toggler-right" href="https://company-91634.frontify.com/document/165866" target="_blank">Frontify</a>
       </div>
     </div>
   </nav>
   <div class="container">
 
-    <div class="page-header">
-      <h1><?php echo $page_title; ?></h1>
-    </div>
+    <h1 class="display-4"><?php echo $page_title; ?></h1>
