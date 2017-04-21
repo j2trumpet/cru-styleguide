@@ -12,14 +12,17 @@
 <body>
   <nav class="navbar navbar-toggleable-sm navbar-inverse bg-inverse fixed-top">
     <div class="collapse navbar-collapse">
-      <div class="navbar-nav">
+      <div class="navbar-nav mr-auto">
         <a class="nav-item nav-link" href="action.php">Action</a>
         <a class="nav-item nav-link" href="buttons.php">Buttons</a>
         <a class="nav-item nav-link" href="cards.php">Cards</a>
         <a class="nav-item nav-link" href="footer2.php">Footer</a>
         <a class="nav-item nav-link" href="inputs.php">Inputs</a>
         <a class="nav-item nav-link" href="links.php">Links</a>
-        <a class="nav-item nav-link navbar-toggler-right" href="https://company-91634.frontify.com/document/165866" target="_blank">Frontify</a>
+      </div>
+      <div class="navbar-nav">
+        <a class="nav-item nav-link" href="https://v4-alpha.getbootstrap.com/" target="_blank">Bootstrap 4</a>
+        <a class="nav-item nav-link" href="https://company-91634.frontify.com/document/165866" target="_blank">Frontify</a>
       </div>
     </div>
   </nav>
