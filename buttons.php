@@ -1,10 +1,7 @@
 <?php $page_title = "Buttons"; ?>
 <?php include 'header.php'; ?>
 
-    <div class="card">
-      <h2 class="card-header">Dark Buttons</h2>
-      <div class="card-block">
-        <!-- <button type="button" class="btn btn-default">Default</button> -->
+    <?php open_card('Dark Buttons'); ?>
         <a href="#" role="button" class="btn btn-primary">Primary</a>
         <a href="#" role="button" class="btn btn-secondary">Secondary</a>
         <a href="#" role="button" class="btn btn-success">Success</a>
@@ -13,97 +10,74 @@
         <a href="#" role="button" class="btn btn-danger">Danger</a>
         <a href="#" role="button" class="btn btn-link">Link</a>
         <a href="#" role="button" class="btn btn-primary disabled">Disabled</a>
-      </div>
-    </div>
+    <?php close_card(); ?>
 
-    <div class="card">
-      <h2 class="card-header">Light Buttons</h2>
-      <div class="card-block">
+    <?php open_card('Light Buttons'); ?>
         <div style="background-color: #05699B; padding: 5px;">
           <a href="#" role="button" class="btn btn-primary btn-light">Light Primary</a>
           <a href="#" role="button" class="btn btn-secondary btn-light">Light Secondary</a>
         </div>
-      </div>
-    </div>
+    <?php close_card(); ?>
 
-    <div class="card">
-      <h2 class="card-header">Radio Buttons</h2>
-      <div class="card-block">
-        <div class="form-check">
-          <label class="form-check-label">
-            <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios1" value="option1" />
-            <span></span>
-            Phone
-          </label>
+    <?php open_card('Radio Buttons'); ?>
+        <div class="form-group">
+          <div class="form-check">
+            <label class="custom-control custom-radio">
+              <input class="custom-control-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" />
+              <span class="custom-control-indicator"></span>
+              <span class="custom-control-description">Phone</span>
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="custom-control custom-radio">
+              <input class="custom-control-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2" />
+              <span class="custom-control-indicator"></span>
+              <span class="custom-control-description">Text</span>
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="custom-control custom-radio">
+              <input class="custom-control-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3" checked />
+              <span class="custom-control-indicator"></span>
+              <span class="custom-control-description">Email</span>
+            </label>
+          </div>
         </div>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios2" value="option2" />
-            <span></span>
-            Text
-          </label>
-        </div>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input class="form-check-input" type="radio" name="optionsRadios" id="optionsRadios3" value="option3" checked />
-            <span></span>
-            Email
-          </label>
-        </div>
-      </div>
-    </div>
+    <?php close_card(); ?>
 
-    <div class="card">
-      <h2 class="card-header">Checkboxes</h2>
-      <div class="card-block">
-        <div class="form-check">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" value="" />
-            <span></span>
-            Label
-          </label>
+    <?php open_card('Checkboxes'); ?>
+        <div class="form-group">
+          <div class="form-check">
+            <label class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" value="" />
+              <span class="custom-control-indicator"></span>
+              <span class="custom-control-description">Label</span>
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" value="" checked />
+              <span class="custom-control-indicator"></span>
+              <span class="custom-control-description">Longer label</span>
+            </label>
+          </div>
+          <div class="form-check">
+            <label class="custom-control custom-checkbox">
+              <input class="custom-control-input" type="checkbox" value="" checked />
+              <span class="custom-control-indicator"></span>
+              <span class="custom-control-description">Label</span>
+            </label>
+          </div>
         </div>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" value="" checked />
-            <span></span>
-            Longer label
-          </label>
-        </div>
-        <div class="form-check">
-          <label class="form-check-label">
-            <input class="form-check-input" type="checkbox" value="" checked />
-            <span></span>
-            Label
-          </label>
-        </div>
-      </div>
-    </div>
+    <?php close_card(); ?>
 
-    <div class="card">
-      <h2 class="card-header">File Selector</h2>
-      <div class="card-block">
-        <div class="upload">
-          <button class="btn btn-primary">
-            <label for="uploadBtn">Choose file</label>
-            <input type="file" id="uploadBtn" />
-          </button>
-          <input id="uploadFile" placeholder="No file chosen" disabled="disabled" />
-          <p class="help-block">Example block-level help text here.</p>
-        </div>
-      </div>
-      <script>
-      document.getElementById("uploadBtn").onchange = function () {
-          document.getElementById("uploadFile").value = this.value;
-      };
-      </script>
-    </div>
+    <?php open_card('File Selector', 'Needs revisiting'); ?>
+        <input type="file" class="form-control-file" id="exampleInputFile" aria-describedby="fileHelp">
+        <small id="fileHelp" class="form-text text-muted">Example block-level help text here.</small>
+    <?php close_card(); ?>
 
-    <div class="card">
-      <h2 class="card-header">Switch</h2>
-      <div class="card-block">
+    <?php open_card('Switch'); ?>
         <p>Can't find it in Bootstrap.</p>
-      </div>
-    </div>   
+    <?php close_card(); ?>   
 
 <?php include 'footer.php'; ?>

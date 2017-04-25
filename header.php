@@ -1,3 +1,4 @@
+<?php include 'functions.php'; ?>
 <html>
 <head>
   <title>Blanket Styleguide: <?php echo $page_title; ?></title>

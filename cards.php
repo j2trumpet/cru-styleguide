@@ -1,22 +1,12 @@
 <?php $page_title = "Cards"; ?>
 <?php include 'header.php'; ?>
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2 class="panel-title">Article/Post</h2>
-      </div>
-      <div class="panel-body">
+    <?php open_card('Article/Post'); ?>
         <p>Coming in Bootstrap 4 - <a href="https://v4-alpha.getbootstrap.com/components/card/" target="_blank">link</a></p>
-      </div>
-    </div>
+    <?php close_card(); ?>
 
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h2 class="panel-title">FAQ</h2>
-      </div>
-      <div class="panel-body">
+    <?php open_card('FAQ'); ?>
         <p>Coming in Bootstrap 4 - <a href="https://v4-alpha.getbootstrap.com/components/card/" target="_blank">link</a></p>
-      </div>
-    </div>   
+    <?php close_card(); ?>
 
 <?php include 'footer.php'; ?>

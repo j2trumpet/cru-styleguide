@@ -1,6 +1,6 @@
 /* MATERIAL DESIGN ICONS */
 
-$mdi-font-path: "node_modules/mdi/fonts";
+$mdi-font-path: "assets/mdi/fonts";
 
 @import "../mdi/scss/variables";
 @import "../mdi/scss/functions";
@@ -8,3 +8,4 @@ $mdi-font-path: "node_modules/mdi/fonts";
 @import "../mdi/scss/core";
 @import "../mdi/scss/icons";
 @import "../mdi/scss/extras";
+@import "../mdi/scss/animated";

@@ -59,33 +59,43 @@ textarea {
 
 // Form fields
 
-.form-check-label {  
+.form-group {
+  .form-check {
+    label {
+      margin-bottom: 0;
+    }
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+  &:last-child {
+    margin-bottom: 0;
+  }
+  label {
+    text-transform: uppercase;
+    font-size: $font-size-sm;
+    color: $cru-scorpion !important;
+    letter-spacing: 1.4px;
+    font-weight: bold;
+    line-height: (1rem * $line-height-base);
+  }
+}
+
+.form-control {
+  border-width: 0 0 2px;
   padding-left: 0;
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
-  font-weight: bold;
-  span {
-    display: inline-block;
-    width: 14px;
-    height: 14px;
-    box-sizing: border-box;
+}
+
+.custom {
+  &-control .custom-control-indicator {
     border: $cru-scooter 2px solid;
-    vertical-align: middle;
-    border-radius: 50%;
-    margin-right: 15px;
+  }
+  &-checkbox .custom-control-indicator {
+    border-radius: 0;
   }
 }
 
-.form-check-input {
-  visibility: hidden;
-  position: absolute;
-  &:checked + span {
-    background-color: $cru-scooter;
-    border: $cru-scooter 2px solid;
-  }
-}
-
-.upload {
+/* .upload {
   .btn {
     position: relative;
     overflow: hidden;
@@ -123,45 +133,7 @@ textarea {
     font-size: 12px;
     color: $cru-scorpion-alt;
   }
-}
-
-label {
-  text-transform: uppercase;
-  font-size: 14px;
-  color: $cru-scorpion;
-}
-
-.form-control {
-  box-shadow: none;
-  border-width: 0 0 2px;
-  padding-left: 0;
-  resize: none;
-  &:focus {
-    box-shadow: none;
-  }
-}
-
-.has-feedback label ~ .form-control-feedback {
-  top: 22px;
-  font-size: 24px;
-}
-
-.has-success {
-  @include cru-form-control-validation($state-success-text, $state-success-border, $state-success-bg);
-}
-.has-warning {
-  @include cru-form-control-validation($state-warning-text, $state-warning-border, $state-warning-bg);
-}
-.has-error {
-  @include cru-form-control-validation($state-danger-text, $state-danger-border, $state-danger-bg);
-}
-
-.has-success, .has-warning, .has-error {
-  .form-control {
-    box-shadow: none;
-    &:focus {box-shadow: none;}
-  }
-}
+} */
 
 
 // Misc
@@ -177,22 +149,28 @@ label {
 
 // Pagination
 
-.pagination {
-  > li {
-    display: inline-block;
-    margin: 0 2px;
-    &:first-child {
-      margin-left: 0;
-    }
-    &:last-child {
-      margin-right: 0;
-    }
-    > a,
-    > span {
-      padding: 3px 4px;
-      border-width: 0 0 2px 0;
-      margin-left: 0;
-      font-weight: 600;
+.page-item {
+  padding-left: .5rem;
+  padding-right: .5rem;
+  &.active .page-link {
+    font-weight: 600;
+  }
+}
+
+.page-link {
+  margin-left: 0;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0;
+}
+
+
+// Progress bars
+
+.progress {
+  .progress-bar {
+    &:last-of-type {
+      @include border-right-radius($progress-border-radius);
     }
   }
 }

@@ -32,7 +32,6 @@ $color-white:                   #FFFFFF;
 
 // Bootstrap overrides
 
-
   // Colors
   $brand-primary:               $cru-bahama-blue;
   $brand-success:               $cru-scooter;
@@ -48,6 +47,8 @@ $color-white:                   #FFFFFF;
 
   // Fonts
   $font-family-sans-serif:      'Source Sans Pro', sans-serif; // weights: 200, 300, 400, 600, 700, 900
+
+  $font-size-sm:                .875rem;
 
 
   // Buttons
@@ -65,17 +66,31 @@ $color-white:                   #FFFFFF;
 
 
   // Forms
-  $input-color:                 $cru-scorpion;
-  $input-border-color:          $cru-scorpion-light;
+  $input-color:                                 $cru-scorpion;
+  $input-border-color:                          $cru-scorpion-light;
 
-  $input-border-radius:         0;
+  $input-border-radius:                         0;
 
-  $input-border-focus:          $cru-scooter;
+  $input-border-focus:                          $cru-scooter;
 
-  $input-color-placeholder:     $cru-scorpion;
+  $input-color-placeholder:                     $cru-scorpion;
+
+  $custom-control-indicator-bg:                 transparent;
+
+  $custom-control-indicator-size:               $font-size-sm;
+  $custom-control-checked-indicator-bg:         $cru-scooter;
+
+  $custom-control-focus-indicator-box-shadow:   none;
+
+  $custom-checkbox-checked-icon:                none;
+
+  $custom-radio-checked-icon:                   none;
 
 
   // Pagination
+  $pagination-padding-x:        4px;
+  $pagination-padding-y:        3px;
+  $pagination-border-width:     2px;
   $pagination-border-color:     transparent;
      
   $pagination-hover-bg:         $color-white;
@@ -104,6 +119,10 @@ $color-white:                   #FFFFFF;
   $state-danger-border:         $cru-tango;
 
 
+  // Badges
+  $badge-default-bg:            $brand-success;
+
+
   // Alerts
   $alert-padding-x:             1rem;
   $alert-padding-y:             1rem;
@@ -113,6 +132,7 @@ $color-white:                   #FFFFFF;
   // Progress bars
   $progress-height:             5px;
   $progress-bg:                 $cru-scorpion-light;
+  $progress-border-radius:      10rem;
 
 
   // Close

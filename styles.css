@@ -2425,9 +2425,9 @@ tbody.collapse.show {
   opacity: 0; }
   .custom-control-input:checked ~ .custom-control-indicator {
     color: #fff;
-    background-color: #05699B; }
+    background-color: #32C3D7; }
   .custom-control-input:focus ~ .custom-control-indicator {
-    box-shadow: 0 0 0 1px #fff, 0 0 0 3px #05699B; }
+    box-shadow: none; }
   .custom-control-input:active ~ .custom-control-indicator {
     color: #fff;
     background-color: #59c4fa; }
@@ -2440,14 +2440,14 @@ tbody.collapse.show {
 
 .custom-control-indicator {
   position: absolute;
-  top: 0.25rem;
+  top: 0.3125rem;
   left: 0;
   display: block;
-  width: 1rem;
-  height: 1rem;
+  width: 0.875rem;
+  height: 0.875rem;
   pointer-events: none;
   user-select: none;
-  background-color: #ddd;
+  background-color: transparent;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 50% 50%; }
@@ -2456,7 +2456,7 @@ tbody.collapse.show {
   border-radius: 0.25rem; }
 
 .custom-checkbox .custom-control-input:checked ~ .custom-control-indicator {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3E%3Cpath fill='%23fff' d='M6.564.75l-3.59 3.612-1.538-1.55L0 4.26 2.974 7.25 8 2.193z'/%3E%3C/svg%3E"); }
+  background-image: none; }
 
 .custom-checkbox .custom-control-input:indeterminate ~ .custom-control-indicator {
   background-color: #05699B;
@@ -2466,7 +2466,7 @@ tbody.collapse.show {
   border-radius: 50%; }
 
 .custom-radio .custom-control-input:checked ~ .custom-control-indicator {
-  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='-4 -4 8 8'%3E%3Ccircle r='3' fill='%23fff'/%3E%3C/svg%3E"); }
+  background-image: none; }
 
 .custom-controls-stacked {
   display: flex;
@@ -3148,12 +3148,12 @@ tbody.collapse.show {
 .page-link {
   position: relative;
   display: block;
-  padding: 0.5rem 0.75rem;
+  padding: 3px 4px;
   margin-left: -1px;
   line-height: 1.25;
   color: #32C3D7;
   background-color: #fff;
-  border: 1px solid transparent; }
+  border: 2px solid transparent; }
   .page-link:focus, .page-link:hover {
     color: #2DAFC3;
     text-decoration: none;
@@ -3213,9 +3213,9 @@ a.badge:focus, a.badge:hover {
   border-radius: 10rem; }
 
 .badge-default {
-  background-color: #636c72; }
+  background-color: #32C3D7; }
   .badge-default[href]:focus, .badge-default[href]:hover {
-    background-color: #4b5257; }
+    background-color: #23a2b3; }
 
 .badge-primary {
   background-color: #05699B; }
@@ -3327,7 +3327,7 @@ a.badge:focus, a.badge:hover {
   line-height: 5px;
   text-align: center;
   background-color: #E6E6E6;
-  border-radius: 0.25rem; }
+  border-radius: 10rem; }
 
 .progress-bar {
   height: 5px;
@@ -5991,8 +5991,8 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
 /* MATERIAL DESIGN ICONS */
 @font-face {
   font-family: "Material Design Icons";
-  src: url("node_modules/mdi/fonts/materialdesignicons-webfont.eot?v=1.9.32");
-  src: url("node_modules/mdi/fonts/materialdesignicons-webfont.eot?#iefix&v=1.9.32") format("embedded-opentype"), url("node_modules/mdi/fonts/materialdesignicons-webfont.woff2?v=1.9.32") format("woff2"), url("node_modules/mdi/fonts/materialdesignicons-webfont.woff?v=1.9.32") format("woff"), url("node_modules/mdi/fonts/materialdesignicons-webfont.ttf?v=1.9.32") format("truetype"), url("node_modules/mdi/fonts/materialdesignicons-webfont.svg?v=1.9.32#materialdesigniconsregular") format("svg");
+  src: url("assets/mdi/fonts/materialdesignicons-webfont.eot?v=1.9.32");
+  src: url("assets/mdi/fonts/materialdesignicons-webfont.eot?#iefix&v=1.9.32") format("embedded-opentype"), url("assets/mdi/fonts/materialdesignicons-webfont.woff2?v=1.9.32") format("woff2"), url("assets/mdi/fonts/materialdesignicons-webfont.woff?v=1.9.32") format("woff"), url("assets/mdi/fonts/materialdesignicons-webfont.ttf?v=1.9.32") format("truetype"), url("assets/mdi/fonts/materialdesignicons-webfont.svg?v=1.9.32#materialdesigniconsregular") format("svg");
   font-weight: normal;
   font-style: normal; }
 
@@ -11992,6 +11992,26 @@ a.text-gray-dark:focus, a.text-gray-dark:hover {
   filter: FlipV;
   -ms-filter: "FlipV"; }
 
+.mdi-spin:before {
+  -webkit-animation: mdi-spin 2s infinite linear;
+  animation: mdi-spin 2s infinite linear; }
+
+@-webkit-keyframes mdi-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
+@keyframes mdi-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg); }
+  100% {
+    -webkit-transform: rotate(359deg);
+    transform: rotate(359deg); } }
+
 body {
   padding-top: 71px;
   padding-bottom: 20px; }
@@ -12004,6 +12024,9 @@ body {
 
 .progress + .progress {
   margin-top: 1rem; }
+
+*:last-child {
+  margin-bottom: 0; }
 
 /* MAIN */
 html {
@@ -12266,178 +12289,90 @@ textarea {
       background-image: none;
       border-color: transparent; }
 
-.form-check-label {
-  padding-left: 0;
-  letter-spacing: 1.4px;
-  text-transform: uppercase;
-  font-weight: bold; }
-  .form-check-label span {
-    display: inline-block;
-    width: 14px;
-    height: 14px;
-    box-sizing: border-box;
-    border: #32C3D7 2px solid;
-    vertical-align: middle;
-    border-radius: 50%;
-    margin-right: 15px; }
-
-.form-check-input {
-  visibility: hidden;
-  position: absolute; }
-  .form-check-input:checked + span {
-    background-color: #32C3D7;
-    border: #32C3D7 2px solid; }
-
-.upload .btn {
-  position: relative;
-  overflow: hidden; }
-  .upload .btn-primary label, .upload .btn-success label, .upload .btn-info label, .upload .btn-warning label, .upload .btn-danger label {
-    color: #FFFFFF;
-    font-size: 1rem; }
-
-.upload label {
+.form-group .form-check label {
   margin-bottom: 0; }
 
-.upload input {
-  vertical-align: top; }
+.form-group .form-check:last-child {
+  margin-bottom: 0; }
 
-.upload input[type=file] {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0;
-  padding: 0;
-  font-size: 20px;
-  cursor: pointer;
-  opacity: 0;
-  max-width: 100%;
-  height: 100%;
-  filter: alpha(opacity=0); }
+.form-group:last-child {
+  margin-bottom: 0; }
 
-.upload #uploadFile {
-  font-size: 1rem;
-  line-height: 46px;
-  border: none;
-  padding: 0;
-  margin-left: 12px; }
-
-.upload .help-block {
-  font-size: 12px;
-  color: #BEBEBE; }
-
-label {
+.form-group label {
   text-transform: uppercase;
-  font-size: 14px;
-  color: #5A5A5A; }
+  font-size: 0.875rem;
+  color: #5A5A5A !important;
+  letter-spacing: 1.4px;
+  font-weight: bold;
+  line-height: 1.5rem; }
 
 .form-control {
-  box-shadow: none;
   border-width: 0 0 2px;
-  padding-left: 0;
-  resize: none; }
-  .form-control:focus {
-    box-shadow: none; }
+  padding-left: 0; }
 
-.has-feedback label ~ .form-control-feedback {
-  top: 22px;
-  font-size: 24px; }
+.custom-control .custom-control-indicator {
+  border: #32C3D7 2px solid; }
 
-.has-success .help-block,
-.has-success .control-label,
-.has-success .radio,
-.has-success .checkbox,
-.has-success .radio-inline,
-.has-success .checkbox-inline,
-.has-success.radio label,
-.has-success.checkbox label,
-.has-success.radio-inline label,
-.has-success.checkbox-inline label {
-  color: #5A5A5A; }
+.custom-checkbox .custom-control-indicator {
+  border-radius: 0; }
 
-.has-success .form-control {
-  border-color: #32C3D7; }
-  .has-success .form-control:focus {
-    border-color: #32C3D7; }
-
-.has-success .input-group-addon {
-  color: #5A5A5A;
-  border-color: #32C3D7;
-  background-color: #D7F0F5; }
-
-.has-success .form-control-feedback {
-  color: #32C3D7; }
-
-.has-warning .help-block,
-.has-warning .control-label,
-.has-warning .radio,
-.has-warning .checkbox,
-.has-warning .radio-inline,
-.has-warning .checkbox-inline,
-.has-warning.radio label,
-.has-warning.checkbox label,
-.has-warning.radio-inline label,
-.has-warning.checkbox-inline label {
-  color: #5A5A5A; }
-
-.has-warning .form-control {
-  border-color: #F5BE19; }
-  .has-warning .form-control:focus {
-    border-color: #F5BE19; }
-
-.has-warning .input-group-addon {
-  color: #5A5A5A;
-  border-color: #F5BE19;
-  background-color: #FAE6A5; }
-
-.has-warning .form-control-feedback {
-  color: #F5BE19; }
-
-.has-error .help-block,
-.has-error .control-label,
-.has-error .radio,
-.has-error .checkbox,
-.has-error .radio-inline,
-.has-error .checkbox-inline,
-.has-error.radio label,
-.has-error.checkbox label,
-.has-error.radio-inline label,
-.has-error.checkbox-inline label {
-  color: #5A5A5A; }
-
-.has-error .form-control {
-  border-color: #EB8223; }
-  .has-error .form-control:focus {
-    border-color: #EB8223; }
-
-.has-error .input-group-addon {
-  color: #5A5A5A;
-  border-color: #EB8223;
-  background-color: #F5BE87; }
-
-.has-error .form-control-feedback {
-  color: #EB8223; }
-
-.has-success .form-control, .has-warning .form-control, .has-error .form-control {
-  box-shadow: none; }
-  .has-success .form-control:focus, .has-warning .form-control:focus, .has-error .form-control:focus {
-    box-shadow: none; }
-
+/* .upload {
+  .btn {
+    position: relative;
+    overflow: hidden;
+    &-primary, &-success, &-info, &-warning, &-danger {
+      label {
+        color: $color-white;
+        font-size: $font-size-base;
+      }
+    }
+  }
+  label {margin-bottom: 0;}
+  input {vertical-align: top;}
+  input[type=file] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    max-width: 100%;
+    height: 100%;
+    filter: alpha(opacity=0);
+  }
+  #uploadFile {
+    font-size: $font-size-base;
+    line-height: 46px;
+    border: none;
+    padding: 0;
+    margin-left: 12px;
+    // @include placeholder($color: $cru-scorpion);
+  }
+  .help-block {
+    font-size: 12px;
+    color: $cru-scorpion-alt;
+  }
+} */
 .close {
   text-shadow: none;
   opacity: .5; }
   .close:hover, .close:focus {
     opacity: 1; }
 
-.pagination > li {
-  display: inline-block;
-  margin: 0 2px; }
-  .pagination > li:first-child {
-    margin-left: 0; }
-  .pagination > li:last-child {
-    margin-right: 0; }
-  .pagination > li > a,
-  .pagination > li > span {
-    padding: 3px 4px;
-    border-width: 0 0 2px 0;
-    margin-left: 0;
+.page-item {
+  padding-left: .5rem;
+  padding-right: .5rem; }
+  .page-item.active .page-link {
     font-weight: 600; }
+
+.page-link {
+  margin-left: 0;
+  border-top-width: 0;
+  border-left-width: 0;
+  border-right-width: 0; }
+
+.progress .progress-bar:last-of-type {
+  border-bottom-right-radius: 10rem;
+  border-top-right-radius: 10rem; }
