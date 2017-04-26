@@ -1,5 +1,8 @@
 /* MAIN */
 
+
+// GLobal elements
+
 html {
   font-size: 16px;
 }
@@ -59,6 +62,11 @@ textarea {
 
 // Form fields
 
+.form-control {
+  border-width: 0 0 2px;
+  padding-left: 0;
+}
+
 .form-group {
   .form-check {
     label {
@@ -78,20 +86,6 @@ textarea {
     letter-spacing: 1.4px;
     font-weight: bold;
     line-height: (1rem * $line-height-base);
-  }
-}
-
-.form-control {
-  border-width: 0 0 2px;
-  padding-left: 0;
-}
-
-.custom {
-  &-control .custom-control-indicator {
-    border: $cru-scooter 2px solid;
-  }
-  &-checkbox .custom-control-indicator {
-    border-radius: 0;
   }
 }
 
@@ -136,14 +130,14 @@ textarea {
 } */
 
 
-// Misc
+// Custom forms
 
-.close {
-  text-shadow: none;
-  opacity: .5;
-  &:hover, &:focus {
-    opacity: 1;
-  }
+.custom-control .custom-control-indicator {
+  border: $cru-scooter 2px solid;
+}
+
+.custom-checkbox .custom-control-indicator {
+  border-radius: 0;
 }
 
 
@@ -162,17 +156,6 @@ textarea {
   border-top-width: 0;
   border-left-width: 0;
   border-right-width: 0;
-}
-
-
-// Progress bars
-
-.progress {
-  .progress-bar {
-    &:last-of-type {
-      @include border-right-radius($progress-border-radius);
-    }
-  }
 }
 
 
@@ -204,4 +187,26 @@ textarea {
 
 .badge-danger {
   @include cru-badge-variant($badge-danger-bg, $cru-tango-dark);
+}
+
+
+// Progress bars
+
+.progress {
+  .progress-bar {
+    &:last-of-type {
+      @include border-right-radius($progress-border-radius);
+    }
+  }
+}
+
+
+// Close
+
+.close {
+  text-shadow: none;
+  opacity: .5;
+  &:hover, &:focus {
+    opacity: 1;
+  }
 }
