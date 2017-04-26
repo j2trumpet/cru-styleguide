@@ -12370,8 +12370,8 @@ textarea {
   border-bottom-color: #2DAFC3; }
 
 .pagination.pager .page-item {
-  margin-left: 30px;
-  margin-right: 30px; }
+  margin-left: 2rem;
+  margin-right: 2rem; }
   .pagination.pager .page-item:first-child {
     margin-left: 0; }
   .pagination.pager .page-item:last-child {

@@ -166,8 +166,8 @@ textarea {
 
 .pagination.pager {
   .page-item {
-    margin-left: $grid-gutter-width-base;
-    margin-right: $grid-gutter-width-base;
+    margin-left: 2rem;
+    margin-right: 2rem;
     &:first-child {margin-left: 0;}
     &:last-child {margin-right: 0;}
   }
