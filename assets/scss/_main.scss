@@ -143,11 +143,22 @@ textarea {
 
 // Pagination
 
+.pagination.pager {
+  .page-item {
+    margin-left: $grid-gutter-width-base;
+    margin-right: $grid-gutter-width-base;
+    &:first-child {margin-left: 0;}
+    &:last-child {margin-right: 0;}
+  }
+  .mdi-chevron-left {margin-right: 20px;}
+  .mdi-chevron-right {margin-left: 20px;}
+}
+
 .page-item {
   padding-left: .5rem;
   padding-right: .5rem;
   &.active .page-link {
-    font-weight: 600;
+    font-weight: 700;
   }
 }
 
@@ -156,6 +167,8 @@ textarea {
   border-top-width: 0;
   border-left-width: 0;
   border-right-width: 0;
+  text-transform: uppercase;
+  font-weight: 600;
 }
 
 

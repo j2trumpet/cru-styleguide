@@ -42,7 +42,22 @@
     <?php close_card(); ?>
 
     <?php open_card('Pager'); ?>
-        Test
+        <nav aria-label="Page navigation">
+          <ul class="pagination justify-content-center pager">
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Previous">
+                <span aria-hidden="true"><i class="mdi mdi-chevron-left"></i></span>
+                Previous
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#" aria-label="Next">
+                Next
+                <span aria-hidden="true"><i class="mdi mdi-chevron-right"></i></span>
+              </a>
+            </li>
+          </ul>
+        </nav>
     <?php close_card(); ?>
 
     <?php open_card('Tabs'); ?>

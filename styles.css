@@ -12355,17 +12355,33 @@ textarea {
 .custom-checkbox .custom-control-indicator {
   border-radius: 0; }
 
+.pagination.pager .page-item {
+  margin-left: 30px;
+  margin-right: 30px; }
+  .pagination.pager .page-item:first-child {
+    margin-left: 0; }
+  .pagination.pager .page-item:last-child {
+    margin-right: 0; }
+
+.pagination.pager .mdi-chevron-left {
+  margin-right: 20px; }
+
+.pagination.pager .mdi-chevron-right {
+  margin-left: 20px; }
+
 .page-item {
   padding-left: .5rem;
   padding-right: .5rem; }
   .page-item.active .page-link {
-    font-weight: 600; }
+    font-weight: 700; }
 
 .page-link {
   margin-left: 0;
   border-top-width: 0;
   border-left-width: 0;
-  border-right-width: 0; }
+  border-right-width: 0;
+  text-transform: uppercase;
+  font-weight: 600; }
 
 .badge {
   text-transform: uppercase; }
