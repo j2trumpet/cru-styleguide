@@ -39,7 +39,7 @@ textarea {
     @include cru-button-variant($btn-success-color, $btn-success-color, $btn-success-bg, $cru-scooter-dark, transparent, transparent);
   }
   &-info {
-    @include cru-button-variant($btn-info-color, $btn-info-color, $btn-info-bg, darken($btn-info-bg, 10%), transparent, transparent);
+    @include cru-button-variant($btn-info-color, $btn-info-color, $btn-info-bg, $color-bs-green-dark, transparent, transparent);
   }
   &-warning {
     @include cru-button-variant($btn-warning-color, $btn-warning-color, $btn-warning-bg, $cru-buttercup-dark, transparent, transparent);
@@ -173,4 +173,35 @@ textarea {
       @include border-right-radius($progress-border-radius);
     }
   }
+}
+
+
+// Badges
+
+.badge {
+  text-transform: uppercase;
+}
+
+.badge-default {
+  @include cru-badge-variant($badge-default-bg, $cru-scooter-dark);
+}
+
+.badge-primary {
+  @include cru-badge-variant($badge-primary-bg, $cru-bahama-blue-dark);
+}
+
+.badge-success {
+  @include cru-badge-variant($badge-success-bg, $cru-scooter-dark);
+}
+
+.badge-info {
+  @include cru-badge-variant($badge-info-bg, $color-bs-green-dark);
+}
+
+.badge-warning {
+  @include cru-badge-variant($badge-warning-bg, $cru-buttercup-dark);
+}
+
+.badge-danger {
+  @include cru-badge-variant($badge-danger-bg, $cru-tango-dark);
 }

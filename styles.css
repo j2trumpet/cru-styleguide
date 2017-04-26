@@ -3187,8 +3187,8 @@ tbody.collapse.show {
 .badge {
   display: inline-block;
   padding: 0.25em 0.4em;
-  font-size: 75%;
-  font-weight: bold;
+  font-size: 0.875rem;
+  font-weight: 600;
   line-height: 1;
   color: #fff;
   text-align: center;
@@ -12376,3 +12376,36 @@ textarea {
 .progress .progress-bar:last-of-type {
   border-bottom-right-radius: 10rem;
   border-top-right-radius: 10rem; }
+
+.badge {
+  text-transform: uppercase; }
+
+.badge-default {
+  background-color: #32C3D7; }
+  .badge-default[href]:focus, .badge-default[href]:hover {
+    background-color: #2DAFC3; }
+
+.badge-primary {
+  background-color: #05699B; }
+  .badge-primary[href]:focus, .badge-primary[href]:hover {
+    background-color: #00557D; }
+
+.badge-success {
+  background-color: #32C3D7; }
+  .badge-success[href]:focus, .badge-success[href]:hover {
+    background-color: #2DAFC3; }
+
+.badge-info {
+  background-color: #5cb85c; }
+  .badge-info[href]:focus, .badge-info[href]:hover {
+    background-color: #449d44; }
+
+.badge-warning {
+  background-color: #F5BE19; }
+  .badge-warning[href]:focus, .badge-warning[href]:hover {
+    background-color: #E6AF28; }
+
+.badge-danger {
+  background-color: #EB8223; }
+  .badge-danger[href]:focus, .badge-danger[href]:hover {
+    background-color: #D77328; }

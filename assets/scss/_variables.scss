@@ -29,13 +29,17 @@ $cru-tango:                     #EB8223;
 
 $color-white:                   #FFFFFF;
 
+$color-bs-green:                #5cb85c; // BS success default
+  $color-bs-green-light:        #dff0d8; // BS success default
+  $color-bs-green-dark:         darken($color-bs-green, 10%);
+
 
 // Bootstrap overrides
 
   // Colors
   $brand-primary:               $cru-bahama-blue;
   $brand-success:               $cru-scooter;
-  $brand-info:                  #5cb85c; // BS success default
+  $brand-info:                  $color-bs-green;
   $brand-warning:               $cru-buttercup;
   $brand-danger:                $cru-tango;
 
@@ -107,7 +111,7 @@ $color-white:                   #FFFFFF;
   $state-success-border:        $cru-scooter;
 
   $state-info-text:             $cru-scorpion;
-  $state-info-bg:               #dff0d8; // BS success default
+  $state-info-bg:               $color-bs-green-light;
   $state-info-border:           $brand-info;
 
   $state-warning-text:          $cru-scorpion;
@@ -121,6 +125,9 @@ $color-white:                   #FFFFFF;
 
   // Badges
   $badge-default-bg:            $brand-success;
+
+  $badge-font-size:             $font-size-sm;
+  $badge-font-weight:           600;
 
 
   // Alerts

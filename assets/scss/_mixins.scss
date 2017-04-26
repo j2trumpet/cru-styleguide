@@ -47,3 +47,16 @@
     @include box-shadow($btn-active-box-shadow);
   }
 }
+
+
+// Badges
+
+@mixin cru-badge-variant($color, $hover-color) {
+  background-color: $color;
+
+  &[href] {
+    @include hover-focus {
+      background-color: $hover-color;
+    }
+  }
+}

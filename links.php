@@ -33,12 +33,12 @@
     </div>
 
     <?php open_card('Tags'); ?>
-        <a href="#" class="badge badge-pill badge-default">Default</a>
-        <a href="#" class="badge badge-pill badge-primary">Primary</a>
-        <a href="#" class="badge badge-pill badge-success">Success</a>
-        <a href="#" class="badge badge-pill badge-info">Info</a>
-        <a href="#" class="badge badge-pill badge-warning">Warning</a>
-        <a href="#" class="badge badge-pill badge-danger">Danger</a>
+        <a href="#" class="badge badge-pill badge-default">Default <span aria-hidden="true"><i class="mdi mdi-close"></i></span></a>
+        <a href="#" class="badge badge-pill badge-primary">Primary <span aria-hidden="true"><i class="mdi mdi-close"></i></span></a>
+        <a href="#" class="badge badge-pill badge-success">Success <span aria-hidden="true"><i class="mdi mdi-close"></i></span></a>
+        <a href="#" class="badge badge-pill badge-info">Info <span aria-hidden="true"><i class="mdi mdi-close"></i></span></a>
+        <a href="#" class="badge badge-pill badge-warning">Warning <span aria-hidden="true"><i class="mdi mdi-close"></i></span></a>
+        <a href="#" class="badge badge-pill badge-danger">Danger <span aria-hidden="true"><i class="mdi mdi-close"></i></span></a>
     <?php close_card(); ?>
 
     <?php open_card('Pager'); ?>
