@@ -141,6 +141,27 @@ textarea {
 }
 
 
+// Navs
+
+.nav-tabs {
+  .nav-item {
+    font-weight: 600;
+    margin-right: 2px;
+    text-transform: uppercase;
+    &:last-child {margin-right: 0;}
+  }
+
+  .nav-link {
+    border-color: $cru-scorpion-light $cru-scorpion-light $cru-scooter-dark;
+  }
+
+  .nav-link.active,
+  .nav-item.show .nav-link {
+    border-bottom-color: $cru-scooter-dark;
+  }
+}
+
+
 // Pagination
 
 .pagination.pager {

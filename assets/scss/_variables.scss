@@ -91,6 +91,14 @@ $color-bs-green:                #5cb85c; // BS success default
   $custom-radio-checked-icon:                   none;
 
 
+  // Navs
+  $nav-tabs-border-color:                       $cru-scooter-dark;
+  //$nav-tabs-border-width:                       2px;
+  $nav-tabs-link-hover-border-color:            $cru-scooter-dark;
+  $nav-tabs-active-link-hover-color:            $cru-scooter-dark;
+  $nav-tabs-active-link-hover-border-color:     $cru-scooter-dark;
+
+
   // Pagination
   $pagination-padding-x:        4px;
   $pagination-padding-y:        3px;
