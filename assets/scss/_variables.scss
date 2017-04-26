@@ -131,6 +131,14 @@ $color-bs-green:                #5cb85c; // BS success default
   $state-danger-border:         $cru-tango;
 
 
+  // Tooltips
+  $tooltip-max-width:           260px;
+  $tooltip-bg:                  $cru-scorpion-dark;
+  $tooltip-opacity:             1;
+  $tooltip-padding-y:           20px;
+  $tooltip-padding-x:           40px;
+
+
   // Badges
   $badge-default-bg:            $brand-success;
 

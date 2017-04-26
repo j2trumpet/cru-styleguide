@@ -15,7 +15,12 @@
     <?php close_card(); ?>
 
     <?php open_card('Tool Tip'); ?>
-        <p>Coming in Bootstrap 4 - <a href="https://v4-alpha.getbootstrap.com/components/tooltips/" target="_blank">link</a></p>
+        <script>
+        $(function () {
+          $('[data-toggle="tooltip"]').tooltip()
+        });
+        </script>
+        <button type="button" class="btn btn-primary" data-toggle="tooltip" data-html="true" data-placement="right" title="<h4>Hey you!</h4><p>This is a tool tip or pop over, arrow tip can be top, bottom, left or right.</p>">Tooltip with HTML</button>
     <?php close_card(); ?>
 
     <?php open_card('Progress Bars'); ?>
