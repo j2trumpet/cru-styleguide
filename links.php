@@ -74,8 +74,8 @@
         </ul>
     <?php close_card(); ?>
 
-    <?php open_card('Labels'); ?>
-        Test
+    <?php open_card('Labels', 'Needs revisiting'); ?>
+        <p>Maybe a <a href="https://v4-alpha.getbootstrap.com/components/list-group/#with-badges" target="_blank">list group w/ badges</a>?</p>
     <?php close_card(); ?>
 
 <?php include 'footer.php'; ?>
