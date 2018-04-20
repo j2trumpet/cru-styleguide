@@ -1,0 +1,4 @@
+[submodule "assets/bootstrap-git"]
+	path = assets/bootstrap-git
+	url = https://github.com/twbs/bootstrap
+	branch = v4-dev
